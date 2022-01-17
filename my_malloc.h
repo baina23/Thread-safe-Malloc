@@ -7,7 +7,7 @@ void* findfirstfit(size_t size);
 void* findbestfit(size_t size);
 void* allocatenew(size_t size);
 
-void mergelist(void* ptr, int dir);
+void mergelist(void* ptr);
 
 //First Fit malloc/free
 void *ff_malloc(size_t size);
