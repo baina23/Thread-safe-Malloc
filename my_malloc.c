@@ -43,10 +43,7 @@ void* allocatehead(size_t size){
     cur = cur + sizeof(void*);  //pre
     *(intptr_t*)cur = 0;
     cur = cur + sizeof(void*);
-    //sbrk(0);
-    //printf("size = %ld, address = %p, sbrk(0) = %p\n", (size_t)(next-cur), tail, sbrk(0));
-    //printf("head address = %p\n", head);
-    //printf("return address = %p\n", cur);
+
     return cur;
 }
 
@@ -65,7 +62,6 @@ void* allocatenew(size_t size){
     *blksize = size;    
     
     cur = blksize + 1;         // flag '1' used; '0' available
-    //printf("head address = %p, head size = %ld, blksize address = %p, blksize = %ld\n",head, *(size_t*)head, blksize, *blksize);
     flag = cur;
     *flag = '1';
     
@@ -73,14 +69,12 @@ void* allocatenew(size_t size){
     next = sbrk(0);
     intptr_t p = (intptr_t) next;
     *(intptr_t*)cur = p;
-    //printf("next address = %p\n", next);
     cur = cur + sizeof(void*);  // pre
     p = (intptr_t) pre;
     *(intptr_t*)cur = p;
 
     cur = cur + sizeof(void*);
-    //printf("size = %ld, address = %p, sbrk(0) = %p\n", (size_t)(sbrk(0)-cur),tail,sbrk(0));
-    //printf("return address = %p\n", cur);
+
     return cur;
 }
 
@@ -114,11 +108,11 @@ void* findfirstfit(size_t size){
             continue;
         }
         size_t val = *(size_t*)tmp;  
-        //printf("head size = %ld\n", *(size_t*)head);      
-        if (val >= size){
-            printf("tmp address = %p, size val = %ld\n",tmp, val);
+        //printf("head size = %ld\n", *(size_t*)head); 
+        //printf("tmp address = %p, size val = %ld\n",tmp, val);     
+        if (val >= size){            
             *f = '1';
-            //sliceblk(tmp,size);
+            sliceblk(tmp,size);
             return tmp + META_SIZE;
         }            
         else {
@@ -162,38 +156,45 @@ void* findbestfit(size_t size){
 
 void mergelist (void* ptr){
     //printf("ptr address = %p, META_SIZE = %ld\n", ptr, META_SIZE);
-    void* cur = ptr - META_SIZE;
+    void* start = ptr - META_SIZE;
+    void* cur = start;
     //printf("META address = %p\n", cur);
     
-    char* f = cur + FLAG_OFFSET;         //change current flag to 0
+    char* f = start + FLAG_OFFSET;         //change current flag to 0
     //printf("flag = %c \n", *f);
     assert(*f == '1');
     *f = '0';    
     
-    intptr_t p = *(intptr_t*)(cur+PRE_OFFSET);    // find aheader
+    intptr_t p = *(intptr_t*)(start+PRE_OFFSET);    // find aheader
     void* aheader = (void*) p;
     f = aheader + FLAG_OFFSET;    
     while(aheader != NULL && *f == '0'){       // neighbor flag = 0 -> can merge
         cur = aheader;
+        //printf("cur (aheader) address = %p\n", cur);
         p = *(intptr_t*)(cur+PRE_OFFSET);
         aheader = (void*) p;
         f = aheader + FLAG_OFFSET;
     }
     aheader = cur;
 
-    p = *(intptr_t*)(cur+NEXT_OFFSET);           // find follower
+    cur = start;
+    p = *(intptr_t*)(start+NEXT_OFFSET);           // find follower
     void* follower = (void*)p;
     f = follower + FLAG_OFFSET;
+    void* tail_pre = (void*)*(intptr_t*)(tail+PRE_OFFSET);
+    printf("tail address = %p, tail size = %ld, tail pre = %p, tail pre size = %ld\n", tail, *(size_t*)tail, tail_pre, *(size_t*)tail_pre);
+    printf(" follower address =%p, follower size = %ld\n", follower, *(size_t*)follower);
     while(follower <= tail && *f == '0'){
         cur = follower;
+        printf("cur (follower) address = %p\n", cur);
         p = *(intptr_t*)(cur+NEXT_OFFSET);
         follower = (void*) p;
         f = follower + FLAG_OFFSET;
     }
     follower = cur;
-
+    printf("aheader size = %ld, follower size = %ld\n", *(size_t*)aheader, *(size_t*)follower);
     if(aheader == follower) return;
-
+    
     *(size_t*)aheader = (size_t)(follower - aheader) + *(size_t*)follower;   // update aheader blksize
     p = *(intptr_t*)(follower+NEXT_OFFSET);
     *(intptr_t*)(aheader+NEXT_OFFSET) = p;       // aheader->next = follower->next
@@ -218,16 +219,16 @@ void *ff_malloc(size_t size){
     if(res == NULL)
         return allocatenew(size);
     else {        
-        printf("found fit! size = %ld\n", size);
+        //printf("found fit! size = %ld\n", size);
         return res;  
     }
 }
 
 
 void ff_free(void *ptr){
-    //printf("head size = %ld\n", *(size_t*)head);
+    printf("free address = %p, free size = %ld\n", ptr-META_SIZE, *(size_t*)(ptr-META_SIZE)); 
     mergelist(ptr);
-    //printf("free address = %p, free size = %ld\n", ptr, *(size_t*)(ptr-META_SIZE)); 
+    printf("free size = %ld\n", *(size_t*)(ptr-META_SIZE));
     //printf("head size = %ld\n", *(size_t*)head);
     return;
 }

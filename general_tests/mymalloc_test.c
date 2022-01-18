@@ -88,6 +88,8 @@ int main(int argc, char *argv[])
     sum += array[5][i];
   } //for i
 
+  //printf("128 follower is %ld\n", *(size_t*)*(intptr_t*)(array[3]+NEXT_OFFSET));
+
   FREE(array[5]);
   FREE(array[1]);
   FREE(array[3]);

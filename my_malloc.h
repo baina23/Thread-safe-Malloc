@@ -1,11 +1,19 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
+#define META_SIZE (sizeof(size_t)+sizeof(char)+2*sizeof(intptr_t))
+
+#define FLAG_OFFSET sizeof(size_t)
+#define NEXT_OFFSET (META_SIZE - 2*sizeof(intptr_t))
+#define PRE_OFFSET  (META_SIZE - sizeof(intptr_t))
+
 
 void* allocatehead(size_t size);
 void* findfirstfit(size_t size);
 void* findbestfit(size_t size);
 void* allocatenew(size_t size);
+
+void sliceblk(void* ptr, size_t size);
 
 void mergelist(void* ptr);
 
