@@ -160,7 +160,9 @@ void* findbestfit(size_t size){
 void mergelist (void* ptr){
 
     void* start = ptr - META_SIZE;
-    void* cur = start;    
+    void* cur = start;
+
+    
     char* f = start + FLAG_OFFSET;         //change current flag to 0
 
     assert(*f == '1');
@@ -213,11 +215,8 @@ void *ff_malloc(size_t size){
         return allocatehead(size);
         
     void *res = findfirstfit(size);    
-    if(res == NULL){
-      if(tail - head >= 0xffffffff) return NULL;
-      return allocatenew(size);
-    }
-        
+    if(res == NULL)
+        return allocatenew(size);
     else {        
         return res;  
     }
@@ -234,10 +233,8 @@ void *bf_malloc(size_t size){
     if(head == NULL)
         allocatehead(size);
     void* res = findbestfit(size);
-    if(res == NULL){
-      if(tail - head >= 0xffffffff) return NULL;
+    if(res == NULL)
         return allocatenew(size);
-      }
     else
         return res;
 }
@@ -249,18 +246,21 @@ void bf_free(void *ptr){
 
 //performance study
 unsigned long get_data_segment_size(){ //in bytes
-    return (size_t)(sbrk(0) - head);
+    return (unsigned long)(sbrk(0) - head);
 }
 
 unsigned long get_data_segment_free_space_size(){//in bytes
     void* tmp = head;
-    size_t res = 0;
-    while(tmp <= tail){
-        if(*(char*)(tmp+FLAG_OFFSET) == '0'){
-            size_t val = *(size_t*)tmp;
-            res = res + val + META_SIZE;            
-        }                
-        intptr_t p = *(intptr_t*)(tmp + NEXT_OFFSET); 
+    unsigned long res = 0;
+    while(tmp < tail){
+        if(*(char*)(tmp+FLAG_OFFSET) == '1'){
+            intptr_t p = (intptr_t)(tmp + NEXT_OFFSET); 
+            tmp = (void*) p;
+            continue;
+        }
+        size_t val = *(size_t*)tmp;
+        res = res + val + META_SIZE;        
+        intptr_t p = (intptr_t)(tmp + NEXT_OFFSET); 
         tmp = (void*) p;      
     }
     return res;

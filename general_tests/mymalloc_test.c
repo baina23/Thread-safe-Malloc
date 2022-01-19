@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "my_malloc.h"
 
-#define FF 1
+#define BF 1
 
 #ifdef FF
 #define MALLOC(sz) ff_malloc(sz)
@@ -36,7 +36,6 @@ int main(int argc, char *argv[])
   size = 16;
   expected_sum += size * size;
   array[1] = (int *)MALLOC(size * sizeof(int));
- //printf("array[1] address = %p\n", array[1]);
   for (i=0; i < size; i++) {
     array[1][i] = size;
   } //for i
@@ -47,7 +46,6 @@ int main(int argc, char *argv[])
   size = 8;
   expected_sum += size * size;
   array[2] = (int *)MALLOC(size * sizeof(int));
-  //printf("done this line\n");
   for (i=0; i < size; i++) {
     array[2][i] = size;
   } //for i
@@ -88,7 +86,7 @@ int main(int argc, char *argv[])
     sum += array[5][i];
   } //for i
 
-  //printf("128 follower is %ld\n", *(size_t*)*(intptr_t*)(array[3]+NEXT_OFFSET));
+
 
   FREE(array[5]);
   FREE(array[1]);

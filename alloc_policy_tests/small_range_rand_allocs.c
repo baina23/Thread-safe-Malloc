@@ -5,6 +5,7 @@
 
 #define NUM_ITERS    100
 #define NUM_ITEMS    10000
+#define FF 1
 
 #ifdef FF
 #define MALLOC(sz) ff_malloc(sz)
