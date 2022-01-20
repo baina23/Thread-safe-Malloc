@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "my_malloc.h"
 
-#define BF 1
+#define FF 1
 
 #ifdef FF
 #define MALLOC(sz) ff_malloc(sz)
@@ -76,7 +76,7 @@ int main(int argc, char *argv[])
     sum += array[4][i];
   } //for i
 
-  size = 256;
+  size = 25;
   expected_sum += size * size;
   array[5] = (int *)MALLOC(size * sizeof(int));
   for (i=0; i < size; i++) {
@@ -102,7 +102,7 @@ int main(int argc, char *argv[])
     sum += array[6][i];
   } //for i
 
-  size = 4;
+  size = 40;
   expected_sum += size * size;
   array[7] = (int *)MALLOC(size * sizeof(int));
   for (i=0; i < size; i++) {
@@ -124,7 +124,7 @@ int main(int argc, char *argv[])
     sum += array[8][i];
   } //for i
 
-  size = 32;
+  size = 320;
   expected_sum += size * size;
   array[9] = (int *)MALLOC(size * sizeof(int));
   for (i=0; i < size; i++) {
