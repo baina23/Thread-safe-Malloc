@@ -7,7 +7,7 @@
 #define META_SIZE (sizeof(size_t)+sizeof(char)+2*sizeof(intptr_t))
 
 #define FLAG_OFFSET sizeof(size_t)
-#define NEXT_OFFSET (META_SIZE - 2*sizeof(intptr_t))1
+#define NEXT_OFFSET (META_SIZE - 2*sizeof(intptr_t))
 #define PRE_OFFSET  (META_SIZE - sizeof(intptr_t))
 
 void *head = NULL;
