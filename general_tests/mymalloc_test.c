@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "my_malloc.h"
 
-#define FF 1
+#define BF 1
 
 #ifdef FF
 #define MALLOC(sz) ff_malloc(sz)
