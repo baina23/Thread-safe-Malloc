@@ -116,14 +116,27 @@ void* bf_malloc(size_t size, meta_t **head, meta_t **tail){
     } 
 
     meta_t *cur = NULL;
-    if(!LOCK_V)
+    if(!LOCK_V){
+        void* p = sbrk(0);
         cur = (meta_t*)sbrk(size+sizeof(meta_t));
-    else
+        cur->size = size;
+        cur->next = NULL;
+        cur->pre = NULL;
+        ret = (void*)cur + sizeof(meta_t);
+    }
+        
+    else{
         cur = (meta_t*)lock_sbrk(size+sizeof(meta_t));
-    cur->size = size;
-    cur->next = NULL;
-    cur->pre = NULL;
-    ret = (void*)cur + sizeof(meta_t);
+        cur->size = size;
+        cur->next = NULL;
+        cur->pre = NULL;
+        ret = (void*)cur + sizeof(meta_t);
+    }
+        
+    // cur->size = size;
+    // cur->next = NULL;
+    // cur->pre = NULL;
+    // ret = (void*)cur + sizeof(meta_t);
     return ret;
 }
 

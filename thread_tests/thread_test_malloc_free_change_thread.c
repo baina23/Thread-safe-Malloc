@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <pthread.h>
 #include "my_malloc.h"
-#define LOCK_VERSION 1
+
 #ifdef LOCK_VERSION
 #define MALLOC(sz) ts_malloc_lock(sz)
 #define FREE(p)    ts_free_lock(p)
