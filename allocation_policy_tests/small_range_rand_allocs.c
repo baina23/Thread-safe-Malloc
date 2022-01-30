@@ -5,6 +5,7 @@
 
 #define NUM_ITERS    100
 #define NUM_ITEMS    10000
+#define BF 1
 
 #ifdef FF
 #define MALLOC(sz) ff_malloc(sz)
@@ -16,9 +17,9 @@
 #endif
 
 
-double calc_time(struct timeval start, struct timeval end) {
-  double start_sec = (double)start.tv_sec + (double)start.tv_usec / 1000000.0;
-  double end_sec = (double)end.tv_sec + (double)end.tv_usec / 1000000.0;
+double calc_time(struct timespec start, struct timespec end) {
+  double start_sec = (double)start.tv_sec*1000000000.0 + (double)start.tv_nsec;
+  double end_sec = (double)end.tv_sec*1000000000.0 + (double)end.tv_nsec;
 
   if (end_sec < start_sec) {
     return 0;
@@ -45,7 +46,7 @@ int main(int argc, char *argv[])
   unsigned tmp;
   unsigned long data_segment_size;
   unsigned long data_segment_free_space;
-  struct timeval start_time, end_time;
+  struct timespec start_time, end_time;
 
   srand(0);
 
@@ -74,7 +75,7 @@ int main(int argc, char *argv[])
 
 
   //Start Time
-  gettimeofday(&start_time, NULL);
+  clock_gettime(CLOCK_MONOTONIC, &start_time);
 
   for (i=0; i < NUM_ITERS; i++) {
     unsigned malloc_set = i % 2;
@@ -90,15 +91,15 @@ int main(int argc, char *argv[])
   } //for i
 
   //Stop Time
-  gettimeofday(&end_time, NULL);
+  clock_gettime(CLOCK_MONOTONIC, &end_time);
 
-  data_segment_size = get_data_segment_size();
-  data_segment_free_space = get_data_segment_free_space_size();
+  //data_segment_size = get_data_segment_size();
+  //data_segment_free_space = get_data_segment_free_space_size();
   printf("data_segment_size = %lu, data_segment_free_space = %lu\n", data_segment_size, data_segment_free_space);
 
-  double elapsed_sec = calc_time(start_time, end_time);
-  printf("Execution Time = %f seconds\n", elapsed_sec);
-  printf("Fragmentation  = %f\n", (float)data_segment_free_space/(float)data_segment_size);
+  double elapsed_ns = calc_time(start_time, end_time);
+  printf("Execution Time = %f seconds\n", elapsed_ns / 1e9);
+  //printf("Fragmentation  = %f\n", (float)data_segment_free_space/(float)data_segment_size);
 
   for (i=0; i < NUM_ITEMS; i++) {
     FREE(malloc_items[0][i].address);

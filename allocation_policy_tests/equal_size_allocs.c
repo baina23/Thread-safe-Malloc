@@ -66,9 +66,9 @@ int main(int argc, char *argv[])
 
       if ((i==NUM_ITERS/2) && (j==NUM_ITEMS/2)) {
 	//Record fragmentation halfway through (try to repsresent steady state)
-	data_segment_size = get_data_segment_size();
-	data_segment_free_space = get_data_segment_free_space_size();
-      } //if
+	// data_segment_size = get_data_segment_size();
+	// data_segment_free_space = get_data_segment_free_space_size();
+     } //if
     } //for j
 
     for (j=NUM_ITEMS-1000; j < NUM_ITEMS; j++) {
@@ -81,7 +81,7 @@ int main(int argc, char *argv[])
 
   double elapsed_ns = calc_time(start_time, end_time);
   printf("Execution Time = %f seconds\n", elapsed_ns / 1e9);
-  printf("Fragmentation  = %f\n", (float)data_segment_free_space/(float)data_segment_size);
+  //printf("Fragmentation  = %f\n", (float)data_segment_free_space/(float)data_segment_size);
 
   for (i=0; i < NUM_ITEMS; i++) {
     FREE(spacing_array[i]);
