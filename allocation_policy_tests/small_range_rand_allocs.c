@@ -5,15 +5,14 @@
 
 #define NUM_ITERS    100
 #define NUM_ITEMS    10000
-#define BF 1
 
-#ifdef FF
-#define MALLOC(sz) ff_malloc(sz)
-#define FREE(p)    ff_free(p)
-#endif
+// #ifdef FF
+// #define MALLOC(sz) ff_malloc(sz)
+// #define FREE(p)    ff_free(p)
+// #endif
 #ifdef BF
-#define MALLOC(sz) bf_malloc(sz)
-#define FREE(p)    bf_free(p)
+#define MALLOC(sz) bf_malloc(sz, &_head, &_tail)
+#define FREE(p)    bf_free(p, &_head, &_tail)
 #endif
 
 
