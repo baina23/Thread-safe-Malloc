@@ -1,0 +1,1758 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en"  class="color-bg-dark-mktg">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://github.githubassets.com">
+  <link rel="dns-prefetch" href="https://avatars.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+  <link rel="preconnect" href="https://github.githubassets.com" crossorigin>
+  <link rel="preconnect" href="https://avatars.githubusercontent.com">
+
+
+
+  <link crossorigin="anonymous" media="all" integrity="sha512-dkuYFW+ra8yYSt342e5pJEeslPSjMcrMvNxlYZMyM/X+/WJHDPvoCuGq3LFojI7B0dQWwZNRiPMnbi9IfUgTaA==" rel="stylesheet" href="https://github.githubassets.com/assets/light-764b98156fab6bcc984addf8d9ee6924.css" /><link crossorigin="anonymous" media="all" integrity="sha512-UrAu23+eyncWvaQFwsLbgSKtmLb2aH1bcT4hJnnRdkaPuY1eu9bumt33FyHHFDX8hskTUNWNkIsMCz7FWQQHwA==" rel="stylesheet" href="https://github.githubassets.com/assets/dark-52b02edb7f9eca7716bda405c2c2db81.css" /><link data-color-theme="light" crossorigin="anonymous" media="all" integrity="sha512-dkuYFW+ra8yYSt342e5pJEeslPSjMcrMvNxlYZMyM/X+/WJHDPvoCuGq3LFojI7B0dQWwZNRiPMnbi9IfUgTaA==" rel="stylesheet" data-href="https://github.githubassets.com/assets/light-764b98156fab6bcc984addf8d9ee6924.css" /><link data-color-theme="dark" crossorigin="anonymous" media="all" integrity="sha512-UrAu23+eyncWvaQFwsLbgSKtmLb2aH1bcT4hJnnRdkaPuY1eu9bumt33FyHHFDX8hskTUNWNkIsMCz7FWQQHwA==" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark-52b02edb7f9eca7716bda405c2c2db81.css" /><link data-color-theme="dark_dimmed" crossorigin="anonymous" media="all" integrity="sha512-kyu73YWtU8Fu2e7p+Hv094CRhaTvr8yy95vc1SQ2+MeWVWakGeIh/lv9yIFaYAb8J3oM6uBLGcn1kS6M1GxBCQ==" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_dimmed-932bbbdd85ad53c16ed9eee9f87bf4f7.css" /><link data-color-theme="dark_high_contrast" crossorigin="anonymous" media="all" integrity="sha512-jZSKF7Gx8T/AFthO0CUkWWpG5EBlIZb+tIYu8KgP/kizn7fpXEiXJcB73GTZ69wSVVSZ6Y1Cw286qP7pVZr0gg==" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_high_contrast-8d948a17b1b1f13fc016d84ed0252459.css" /><link data-color-theme="dark_colorblind" crossorigin="anonymous" media="all" integrity="sha512-E02WD8opZPpYu6LM9dlUSIHQgXtLmzi1KxMnaN/SA7k6ILsvpNJjpkBPU1sC98MitAOkCNIe6ozqY8+pHnrHZg==" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_colorblind-134d960fca2964fa58bba2ccf5d95448.css" /><link data-color-theme="light_colorblind" crossorigin="anonymous" media="all" integrity="sha512-VWdBPHZj3WCDwaO0N2W8yvDZt7TNZohRIYK4sjjSU56485rCWazxnLr4p3DU8eqn2+eSj3CYYpw4+DzmwHOwew==" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_colorblind-5567413c7663dd6083c1a3b43765bcca.css" /><link data-color-theme="light_high_contrast" crossorigin="anonymous" media="all" integrity="sha512-dw8LrBQMvo9HDd5lo2UEp/tvMVR6zJjrQkQTBVrhyaHDlL1p7UiQ9/xpqYxOz9s7s1Qh5Bjokuzu7NX0U5BeYA==" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_high_contrast-770f0bac140cbe8f470dde65a36504a7.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-na4wzpzKdoCbEgMMie5/+OzNZRFpktZGbdkAaPFu8Pg4PoBV0nk8DQCDAgutGApM6P6RLMbajUJ154wxygx4eg==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-9dae30ce9cca76809b12030c89ee7ff8.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-egJtFk4L8stElJrEv5CIWaUsCR5aMoUwRQdtaY+DNGUgB5KSU5dWvmq9F2ls9yR9wz0g6yJBcU2kWfTK+BYBwA==" rel="stylesheet" href="https://github.githubassets.com/assets/behaviors-7a026d164e0bf2cb44949ac4bf908859.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-MCJFYfbQoT4EXC6aWx5Wghs8FC/jslHEeN2iWXphliccmede2dQlhIBTAUCBq9Yu5poltu4askungzvyCsycGg==" rel="stylesheet" href="https://github.githubassets.com/assets/tab-size-fix-30224561f6d0a13e045c2e9a5b1e5682.css" />
+  
+  
+  
+  <link crossorigin="anonymous" media="all" integrity="sha512-54fSas6GhhAivKkzqJw3A/WiTExhnX/V2ziqSO5Me3aqJMLmQzFs2j/bzzplixYPRAezkdZBF9PinHPd62AiAQ==" rel="stylesheet" href="https://github.githubassets.com/assets/site-e787d26ace86861022bca933a89c3703.css" />
+
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-lRIqeyIxt61WwZibYKL5EgYIj35TIxyWfbPZ8xKAsVxNYdIbWEoUSwUgz+1M3nBgbb5xVvkXX+1Ke5leSuaYjw==" type="application/javascript" src="https://github.githubassets.com/assets/environment-95122a7b.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-9jk0AWMRdLukPJK0Ekv2DwUYLPJaBugDWROSi75RhXrJut6R1PNABBFB0Bp4Pxw7nGLSydxeg0hPIsg/qjq4Hw==" type="application/javascript" src="https://github.githubassets.com/assets/chunk-frameworks-f6393401.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-Djzz0AWf9AlsJLxdI3qTbVS+ZHLaBYRE5Mu3awOz5vyHfo1/Zi8KFUonMRzqFcEYnoaWHpKFgK3BWigd80CupA==" type="application/javascript" src="https://github.githubassets.com/assets/chunk-vendor-0e3cf3d0.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-nlVwLz44JXHvDWiy/RpvNny+99Moy7veLNb70dCzc3GB3/0/ja9HomNQTE14/wcpO6OtUmQAypIV62f1PgOAGw==" type="application/javascript" src="https://github.githubassets.com/assets/behaviors-9e55702f.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-JvtDDIBynQ75SHqGJDJlTSoUiLp4v+yHUbBz/yKjsMT0cNUwnNuJCLeRckbUPxMoeGTF1SsZoLoyh2+2ONbFnA==" type="application/javascript" src="https://github.githubassets.com/assets/notifications-global-26fb430c.js"></script>
+  
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-s29T5r7y591Z4m7jsJtkZdSy2BSgcbUhqOZxQzmImaMYoDdL2MLvaLIvhd1lee/y4dg++F9OOLWxQ4P1cj+WwQ==" type="application/javascript" data-module-id="./chunk-action-list-element.js" data-src="https://github.githubassets.com/assets/chunk-action-list-element-b36f53e6.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-8lFeMPD4akYYJTK4foKlQ+lH3gdJwMFML7I5NJfsZCGouNEBtSLdHH6ZYgBZtGwfdu+ixG2RfUUZ1veqWKJYmw==" type="application/javascript" data-module-id="./chunk-advanced.js" data-src="https://github.githubassets.com/assets/chunk-advanced-f2515e30.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-iG8aKaXiAy7ONu7OJuY1pf3FGFzrs4mYYGnUD47a1kXP5URyMlP1RpAFyWTFeyirHY/UoR2mmkkBD40j/9ouPA==" type="application/javascript" data-module-id="./chunk-animate-on-scroll.js" data-src="https://github.githubassets.com/assets/chunk-animate-on-scroll-886f1a29.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-hYDRBXAASsg/XNBqynH5m9egXuA4fHRv7fGWVHtBKjo45Ab7YdMD+qPEHilOkt4hr7KDVUzw+gvdeFlCrVKZmQ==" type="application/javascript" data-module-id="./chunk-area.js" data-src="https://github.githubassets.com/assets/chunk-area-8580d105.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-fGJW2FSExsEpobx9Kb2rYgeTIybR41QnA2lLfgJw31XzbfY+2jfbuR433ljZ1Der3vxUWJoxnpAiLym/HVvUAA==" type="application/javascript" data-module-id="./chunk-array.js" data-src="https://github.githubassets.com/assets/chunk-array-7c6256d8.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-+4dXpYDj5COKTdic7RPF4KJt8XQDKgtbcNHUdojLqRYPO9tK4A9RFVr61WpJWW8RF1YMGBNbj8UJtTECowOjVw==" type="application/javascript" data-module-id="./chunk-async-export.js" data-src="https://github.githubassets.com/assets/chunk-async-export-fb8757a5.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-E6oAz1QHJPTJfIGSZeB/PYa16h9x+1+4lxN2fe3zCeL/MxYuXtqQ5jFnd3cWtb4dRH0lxbALog3Vmap6pKQCAA==" type="application/javascript" data-module-id="./chunk-band.js" data-src="https://github.githubassets.com/assets/chunk-band-13aa00cf.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-Ajvp4eWVlyj0gO7hyo70jk7tNkGS/5rzpKfuIcfdpXSyTN3kwLKL15B4JEbjgXKkyd/dNN1mX7h8uQkxxLoeTw==" type="application/javascript" data-module-id="./chunk-bar-chart.js" data-src="https://github.githubassets.com/assets/chunk-bar-chart-023be9e1.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-ts+QjRdJ8l4YeV4z8foKCE8+AXJ3uSCGpWPjcVyut5LRzvgdtDXLpy1LYSyBpy7E0PlkRswBVgw1Va/EQ7d5lA==" type="application/javascript" data-module-id="./chunk-branch-from-issue-button.js" data-src="https://github.githubassets.com/assets/chunk-branch-from-issue-button-b6cf908d.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-Pn7maXkGR2Qgrox5/SfIyqhxziQrifckvKs8a8vZJe8LcyIsFQX0qUxm5xfmFUfB+szvB9KP3pZEZbwR45Cpkg==" type="application/javascript" data-module-id="./chunk-code-frequency-graph-element.js" data-src="https://github.githubassets.com/assets/chunk-code-frequency-graph-element-3e7ee669.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-jNV3X9rYbM+OIv29fcPTKqJczxgGRunhkDDAUH0GyzLq5hCzf7+wgNpad/lP7JsAn3qKzi3j0fx2YKh0lwCRug==" type="application/javascript" data-module-id="./chunk-codemirror.js" data-src="https://github.githubassets.com/assets/chunk-codemirror-8cd5775f.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-JzgkuDECne1pSMuCeKgrahMjbTRn6ucMKHPekcNzZJU8LuTFndvIoaI11sdas7kFFEF3kvmK2iKadUx0L6P6mA==" type="application/javascript" data-module-id="./chunk-codespaces-policy-form-element.js" data-src="https://github.githubassets.com/assets/chunk-codespaces-policy-form-element-273824b8.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-xhSAO0KtnFAlRqAK+mg8BPj/J334ccvnCmmjmBQBCgZcsoO9teHJSS6oAn3XOWYFsWPU2JehwG7S3OVEbLwdUg==" type="application/javascript" data-module-id="./chunk-color-modes.js" data-src="https://github.githubassets.com/assets/chunk-color-modes-c614803b.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-ZKU6M3qeSFFfp25Yw0GjIHoPfurr3TnlgSRzwPlLX+rgx3Wtgz2YONbRsHn0NQCDkeRh7+oxX0K/gjfOIuyFxw==" type="application/javascript" data-module-id="./chunk-command-palette-page-element.js" data-src="https://github.githubassets.com/assets/chunk-command-palette-page-element-64a53a33.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-EfZAlxeQuLenciEvaMA92/KsYIrhCga+ZoBdWj1AqMxdE5ULXnJEJFbZhgR64Lbh5uZmhyXU2ztKOH06OJOv4Q==" type="application/javascript" data-module-id="./chunk-command-palette-page-stack-element.js" data-src="https://github.githubassets.com/assets/chunk-command-palette-page-stack-element-11f64097.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-jXKDu6IyzvIDbU/P2kjldDi8Mj3YqywWTKcjYnbDmWuEmXDQhRLrSovhHut87Lym0gB1aX/Bq4VmCYCwI6z9/A==" type="application/javascript" data-module-id="./chunk-community-contributions.js" data-src="https://github.githubassets.com/assets/chunk-community-contributions-8d7283bb.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-HDsLJf6gAN+WDFaJneJwmIY82XkZKWqeX7tStBLRh1XM53K8vMV6JZvjq/UQXszaNVWxWcuYtgYTG6ZWo8+QSw==" type="application/javascript" data-module-id="./chunk-confetti.js" data-src="https://github.githubassets.com/assets/chunk-confetti-1c3b0b25.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-lVgRr0+tI0xOSqg0KRwUIXgHFNZVPIVkjok+tLfkuUNDcoM8CKRuoqbMlw2H7QQ3dfMN36XJbTy3ugG/qo8Czg==" type="application/javascript" data-module-id="./chunk-contributions-spider-graph.js" data-src="https://github.githubassets.com/assets/chunk-contributions-spider-graph-955811af.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-AdShwMIaVrtYr+LC9cc7rsC64wQJgoCdDjLJXaD4kVhdmuld7dk748AQueuoomE4OZypdoHSPmxQ56Wge/qtig==" type="application/javascript" data-module-id="./chunk-cookies.js" data-src="https://github.githubassets.com/assets/chunk-cookies-01d4a1c0.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-jitxouuFY6SUcDZV5W3jhadVEIfFBfCQZxfPV3kxNnsWEBzbxMJFp0ccLb7+OlBjSs1zU/MNtuOV6T9Ay7lx4w==" type="application/javascript" data-module-id="./chunk-copy.js" data-src="https://github.githubassets.com/assets/chunk-copy-8e2b71a2.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-miaiZ1xkDsWBUsURHOmeYtbgVKQGnm1octCo/lDXUmPzDyjtubnHULRVw1AK+sttwdwyB0+LOyhIVAWCNSGx+A==" type="application/javascript" data-module-id="./chunk-delayed-loading-element.js" data-src="https://github.githubassets.com/assets/chunk-delayed-loading-element-9a26a267.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-NqZwR5XuSRAw/f4t38HG/ylDGA7279e40SJtWFCT5UyqiwGQCITayV72YxNfHAM9rrSI42J7iSSMlsfXdOaUwg==" type="application/javascript" data-module-id="./chunk-discussion-page-views.js" data-src="https://github.githubassets.com/assets/chunk-discussion-page-views-36a67047.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-jUQ3pnS+O3jJfwI5P18gA2WzvI33rQdeRRf1JkZjV4s1+5vObtq/Eo83mlbXtyXPoTlcPy0pztpR3yZ/+9M0mg==" type="application/javascript" data-module-id="./chunk-discussions-daily-contributors.js" data-src="https://github.githubassets.com/assets/chunk-discussions-daily-contributors-8d4437a6.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-P9ggAq/e3lOP9iuTaA2IDG15gjqWTeqnMJxy9NAe9i96YMuBvN3kLcPNlL32vSdAWk+AGlG/QBH0eaLD2nOZKA==" type="application/javascript" data-module-id="./chunk-discussions-new-contributors.js" data-src="https://github.githubassets.com/assets/chunk-discussions-new-contributors-3fd82002.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-T092OZtYeslxDIimT2TR4IWlO+6B9q6zenOAqRekKME3TgdR1nKinRgV0PTYZ3Y3IITjimtvjqQpN5kW11o0bw==" type="application/javascript" data-module-id="./chunk-drag-drop.js" data-src="https://github.githubassets.com/assets/chunk-drag-drop-4f4f7639.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-EvJ2Fip59DXgARNuwTWgjdVqoCjhXQL73SP9yexijlWStKq92sfbKeGK5R4wIP0QOr39WsnW/Kaw3Wpl1QPfog==" type="application/javascript" data-module-id="./chunk-edit-hook-secret-element.js" data-src="https://github.githubassets.com/assets/chunk-edit-hook-secret-element-12f27616.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-lJhSlHBxDYfafMGsvjfmbReBxHE64RGTSucXtcG3vTpWvu2vlw/heQjiHB+JwYpnWvcXh0Tn9oLlo90LEpUfIA==" type="application/javascript" data-module-id="./chunk-edit.js" data-src="https://github.githubassets.com/assets/chunk-edit-94985294.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-6WJL+zyYirKxwD8MNBenuxbMKvCeskXBrXISNlqhV3kltmI8kiSjUX0nDQM3fXeSakcll12sYS8Pli1GFPtG9Q==" type="application/javascript" data-module-id="./chunk-emoji-picker-element.js" data-src="https://github.githubassets.com/assets/chunk-emoji-picker-element-e9624bfb.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-euLLeTFpj2DeM/lF0qLZedbrh2iLKL86jMNj8ydBs0Dr24s0ZxmdYnenUo2UIVD8r3t2DgXaahNQmstHlXpmtA==" type="application/javascript" data-module-id="./chunk-extent.js" data-src="https://github.githubassets.com/assets/chunk-extent-7ae2cb79.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-aGaoVKNIqNkSpelOnfn0UCDbQLW2XBUVVkOOgVZXFNDfgJgFQNMXALc0964DwIi9kYrkYQIShePOSMFo20hHkw==" type="application/javascript" data-module-id="./chunk-feature-callout-element.js" data-src="https://github.githubassets.com/assets/chunk-feature-callout-element-6866a854.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-iOOLdgqJ+9nIsmgDk8G3/VXnNT5WVKtigTTDNim7RiAGAwo5ZhHeiwPKyxnPdpHoUhusFkQOyjv/G5+mPAaY6Q==" type="application/javascript" data-module-id="./chunk-filter-input.js" data-src="https://github.githubassets.com/assets/chunk-filter-input-88e38b76.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-I5GWAgLNL1Ik55RAlli3NkR3h7jovmTh1NBBIZfPn47Y4ALgUdIV/bVqkysygt0Rpv/Zo/ISZQJJaFk9daQAjQ==" type="application/javascript" data-module-id="./chunk-get-repo-element.js" data-src="https://github.githubassets.com/assets/chunk-get-repo-element-23919602.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-Q8q7N7XzNXhgaWGGb+GJg1j747S64eBnN4i9fBnc2ZC+iaTX4RNv7nP9QyHXBqKHusT2KuXfOGc2hO6STYS38A==" type="application/javascript" data-module-id="./chunk-input-demux.js" data-src="https://github.githubassets.com/assets/chunk-input-demux-43cabb37.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-hsTNFqudnc2FNAl3hHQc+98pgQu4kgIp/+NYpS0pGrRWHQ6B+AhusAZm1awZaKiPkDjX9YJxBW4F+4UF5XJ15g==" type="application/javascript" data-module-id="./chunk-insights-query.js" data-src="https://github.githubassets.com/assets/chunk-insights-query-86c4cd16.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-zArQSz4uNqIUa9EXlIbae9VrKKp1aK5mmghC2ot78iANUV3XjWnNwL4EGXukMio4+QZk7eaNFXCGhgXOjnvD3Q==" type="application/javascript" data-module-id="./chunk-invitations.js" data-src="https://github.githubassets.com/assets/chunk-invitations-cc0ad04b.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-HUCXKPq3d57T7xAUTeWCbBIsAT7tb7qn4hcSRxcf+yIJ3LUe+EuVOYLlAksjgale2nSW2D6nFfaUazs8TvDMKw==" type="application/javascript" data-module-id="./chunk-jump-to.js" data-src="https://github.githubassets.com/assets/chunk-jump-to-1d409728.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-L2jxBDS9QAN9O1qn7LqMcs0YJn/gF6xW73zSbWPRlVCEnG05dexaoJWkAG6RqALTnXLsj2GTUKnba6DATR828g==" type="application/javascript" data-module-id="./chunk-launch-code-element.js" data-src="https://github.githubassets.com/assets/chunk-launch-code-element-2f68f104.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-Agzv3JB+hMWrw5dZ5l1nWlMFz4U9s0XtcS5yphek09Us1YXDfOzgQaDVAW4XwMHaun8UZ5WyAdSUCerGhi3VmA==" type="application/javascript" data-module-id="./chunk-line-chart.js" data-src="https://github.githubassets.com/assets/chunk-line-chart-020cefdc.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-JAfdu6lgGs86fcTO8wYQzT66kMlf29Ts9pyn6TK9J1L+8qqry7T2Bls4vAwrnZmCBTBe/tvefX06vII1AU8NeA==" type="application/javascript" data-module-id="./chunk-line.js" data-src="https://github.githubassets.com/assets/chunk-line-2407ddbb.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-tNAVhVuf3K1xDDodLofpJqA7p0eeczeUKZcvwZhJVMTX5L54VgpRoQ92up9EHHt9WS5w6kEZeBx3jMnEF0kSTw==" type="application/javascript" data-module-id="./chunk-linear.js" data-src="https://github.githubassets.com/assets/chunk-linear-b4d01585.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-af75/blvTxPgJ+U/NJv1AdCatvyftFB8/C/cBLsMd5htNQuBoFQg6DHpHZhekoY/+o1hx4hqYI0pxYbAnDo0Nw==" type="application/javascript" data-module-id="./chunk-memex-project-picker-element.js" data-src="https://github.githubassets.com/assets/chunk-memex-project-picker-element-69fef9fd.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-cvjyIYhR2ZkuFAXHYZSjPTc5wXYOdISgqbXw69CXpDXdxffXmXuzjCcGJNVk3mDNYsVH4Q9sb2UMNPFrNxxRUQ==" type="application/javascript" data-module-id="./chunk-metric-selection-element.js" data-src="https://github.githubassets.com/assets/chunk-metric-selection-element-72f8f221.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-x51kWxNaKiuBWTPZ+IX923ONOyqpFonKFirLe2zxxsIH6akLMo5eQR+aJu5XzrXE0tcaHMjk1Ko5mpJ8Kkp9Gg==" type="application/javascript" data-module-id="./chunk-notification-list-focus.js" data-src="https://github.githubassets.com/assets/chunk-notification-list-focus-c79d645b.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-XPZ/UKr7xoeMUy/qNP/Xtz75lOQSAx79MciLVEyMPraKbo/fyGj/3UG5oXlF71WkZyOFVYl2L/beXCv9gCL9jw==" type="application/javascript" data-module-id="./chunk-overview.js" data-src="https://github.githubassets.com/assets/chunk-overview-5cf67f50.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-YJO7n7OcyUpSmPBTiPTMQt66iw6XBzrAOuPgbfIuxJYQd20bMGvSm6LhfkIe+pIYRfxZj8sca2UwHam1wVQIAw==" type="application/javascript" data-module-id="./chunk-prefetched-provider.js" data-src="https://github.githubassets.com/assets/chunk-prefetched-provider-6093bb9f.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-dDzS24+0NTp60Lg9o8knFH9cyfQP7970zVCE7ojzMSFwzB8BTOBFQdV+gBhIaS/bltHlhvHA9NVEP3nmZB821Q==" type="application/javascript" data-module-id="./chunk-premium-runners.js" data-src="https://github.githubassets.com/assets/chunk-premium-runners-743cd2db.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-i15/Lscj9OK0WLprCYM07xLLnbLlzFVRUO10KGu3mRzVzjVox6vk4NZn6gtexLyeeG0t/FPAg+JY44Xhl8RwPQ==" type="application/javascript" data-module-id="./chunk-presence-avatars.js" data-src="https://github.githubassets.com/assets/chunk-presence-avatars-8b5e7f2e.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-5H5N/3G/20nmVKntphXb9z0H9q3URFDmHSccLhFkMSA8ILAA9mYlRKCWAWoDcl/W437jtGw1tIxjWStfInvidw==" type="application/javascript" data-module-id="./chunk-profile-pins-element.js" data-src="https://github.githubassets.com/assets/chunk-profile-pins-element-e47e4dff.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-vFR+IqThljOLrAWmjhOL/kiQrjgZZg95uPovX0J7kRH5p7Y049LDRZaXLMDijfeqqk71d3MMn9XP5bUcH+lB9w==" type="application/javascript" data-module-id="./chunk-profile.js" data-src="https://github.githubassets.com/assets/chunk-profile-bc547e22.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-ooYcnNLBDnMePhMvdQEQiItFZowYg4gwklGZGCrAWPW1LCxePPkzB1kr8U3Bay0NPKYEDmICeXBqqDPd8EDmqA==" type="application/javascript" data-module-id="./chunk-project-picker-element.js" data-src="https://github.githubassets.com/assets/chunk-project-picker-element-a2861c9c.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-Ss5123BxfOLXauNzkKuVJLf6Df4bJ2xCQAWm0Eeojv32Cl/WJHj0J97uE2zrGPpGP3eK8a7wi9DYoKj6gK5S7g==" type="application/javascript" data-module-id="./chunk-pulse-authors-graph-element.js" data-src="https://github.githubassets.com/assets/chunk-pulse-authors-graph-element-4ace75db.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-4c1T1xmasSz69dd9MxySBvtZlnV5u3bFXJXlJLlFe57DoQJ/9FHWx8sVKFvrDjDCnmy+oEbB3Zw9FKduYh71XA==" type="application/javascript" data-module-id="./chunk-readme-toc-element.js" data-src="https://github.githubassets.com/assets/chunk-readme-toc-element-e1cd53d7.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-dtVRIDepgZPiXO37xJz46z0iKqh6nxYydwMwrzyTKWVTyrZosO3paK8h3ueILWyCKjZntOBb1SXu5Myg8TOAJQ==" type="application/javascript" data-module-id="./chunk-ref-selector.js" data-src="https://github.githubassets.com/assets/chunk-ref-selector-76d55120.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-1qv2NZ7xA2F/hwAq4HdNLvjmBHM6neha9OUP9IqXA/VgxKvsbg/40HJN1sBXKZ6ufTb0/fokBXJHla8YCHAbTQ==" type="application/javascript" data-module-id="./chunk-remote-clipboard-copy.js" data-src="https://github.githubassets.com/assets/chunk-remote-clipboard-copy-d6abf635.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-oJMW0D2NMJDWZ3hNGcsi+GGSEKcrjdyKORlra0Gv0nlZ3Pc654AfESFBwPkfcin7RTP4VIS8ze8G+csRc4Kk8w==" type="application/javascript" data-module-id="./chunk-responsive-underlinenav.js" data-src="https://github.githubassets.com/assets/chunk-responsive-underlinenav-a09316d0.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-vaGnAx5Fp/lV6x+tWNtSKS8H0hTaiXw2b4N16r0CYjAQ6Gcjl1BOWqWgmPPisyYO4drrI8Qz9rWJCWYTuOchjw==" type="application/javascript" data-module-id="./chunk-runner-groups.js" data-src="https://github.githubassets.com/assets/chunk-runner-groups-bda1a703.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-eO/r0W5ywI2kxVkcH8yquw3n5Gh+cA8lVOgxd+ecgJYU81FB4Q5FqFxgHhx1omigPwexB4ltwXBMDhSeW6qNeQ==" type="application/javascript" data-module-id="./chunk-series-table.js" data-src="https://github.githubassets.com/assets/chunk-series-table-78efebd1.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-0ho0SIKf1TsQpvFNdpkKw57DmpU8LampLRvO67Q0G+6744f/qI8uTtL96F5tOPT56dG40cwoKB8v6kYqyGipvw==" type="application/javascript" data-module-id="./chunk-severity-calculator-element.js" data-src="https://github.githubassets.com/assets/chunk-severity-calculator-element-d21a3448.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-SGxKZJPMoMDPJ4mVhReJ1NPmXxuTuePhizAUPkKphsivzZhVQstruqwewm3oUpP1yONOG8MITAodv/5iKRsEtw==" type="application/javascript" data-module-id="./chunk-sortable-behavior.js" data-src="https://github.githubassets.com/assets/chunk-sortable-behavior-486c4a64.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-m1DYBZwZNZaLWYDL/8GnEN2lhhO0BKfvwRgOHwDYGo9yWF9qW/H8k2wAvACXO+cIKN7kiznlYmA31ZYFRe7xjw==" type="application/javascript" data-module-id="./chunk-stacked-area-chart.js" data-src="https://github.githubassets.com/assets/chunk-stacked-area-chart-9b50d805.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-Z5vxYqlrzgKkUgwWnpxHQ7mGgyY4QVo6rX+t+/+TEiFrVv4hH0bIN7cl/YvFJ5FVrLz/LFu7mhSnEWByM5sJXw==" type="application/javascript" data-module-id="./chunk-stacks-input-config-view.js" data-src="https://github.githubassets.com/assets/chunk-stacks-input-config-view-679bf162.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-gmw7obKL/JEHWPp6zWFh+ynbXUFOidj1DN2aPiTDwP8Gair0moVuDmA340LD84A29I3ZPak19CEiumG+oIiseg==" type="application/javascript" data-module-id="./chunk-tag-input.js" data-src="https://github.githubassets.com/assets/chunk-tag-input-826c3ba1.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-5hEtVXv0HlYtpvCSDdjhSPIMuBRCQtmmYPBX2cdwfQnjcYNNQ63X+qzck70pa9hTjQD6qKbWgWU3wjZ/ymyLuQ==" type="application/javascript" data-module-id="./chunk-three.module.js" data-src="https://github.githubassets.com/assets/chunk-three.module-e6112d55.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-oyXoD67cJ5ojz4bVFfH8srUIhRCJEHrUAss+P3h/8H6QjK+ZTv6USJDYb0RpyU7K3keLgY5VsviHKHgB76Hh7w==" type="application/javascript" data-module-id="./chunk-tip.js" data-src="https://github.githubassets.com/assets/chunk-tip-a325e80f.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-4GJz2wyWwjq7P4hyx3qSkjvnTO7RG5cWvnePVXPB+Oji6MBVugAdl7kCTKbpX8+Ae2ONvGJwFzSc9A7m1pqzXw==" type="application/javascript" data-module-id="./chunk-toast.js" data-src="https://github.githubassets.com/assets/chunk-toast-e06273db.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-LrFD/6TEB4KoXgX7o9XDqbgp/Z9c2M05v7j4J+Pu5AoNU76hTxEerTqOBIM9cBQzvSjpCSoJV66hHqfyIeUMkg==" type="application/javascript" data-module-id="./chunk-tweetsodium.js" data-src="https://github.githubassets.com/assets/chunk-tweetsodium-2eb143ff.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-ODZJzCJpaOfusrIka5QVZQcPiO9LBGyrrMYjhhJWSLuCN5WbZ5xiEiiOPOKVu71dqygyRdB2TY7AKPA1J5hqdg==" type="application/javascript" data-module-id="./chunk-unveil.js" data-src="https://github.githubassets.com/assets/chunk-unveil-383649cc.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-mLpA7cDmISDeXiqsCEbEzVF1WCiEO6weP+AP7bKfcNLYHg7ZNunX7b2yUWKPN+ByilarY1AM+uGcNH3MN5jnYQ==" type="application/javascript" data-module-id="./chunk-user-status-submit.js" data-src="https://github.githubassets.com/assets/chunk-user-status-submit-98ba40ed.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-6yI/t7GcFRajrquWdg5NqQdrvgI4rWRWcuZhNmAHH/T2aw2iB0uAco9nNYoETW3zzJ+tmnC7qqfArrHaYmk1oQ==" type="application/javascript" data-module-id="./chunk-voting.js" data-src="https://github.githubassets.com/assets/chunk-voting-eb223fb7.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-q34Q0/s/exmYECvsCRWCxp+22UY2cZK8MPrKv3LjI3bNU5AD3Fzv+JhN0Lgfvd2mgju3llixlQ4z2RvkTIw2oA==" type="application/javascript" data-module-id="./chunk-webgl-warp.js" data-src="https://github.githubassets.com/assets/chunk-webgl-warp-ab7e10d3.js"></script>
+  
+  <script crossorigin="anonymous" defer="defer" integrity="sha512-b894kfgHGGq3GeNUyp2gBtrYZCIcD7vi6Jgt4ZUKMRSwF26Gl06QHLxlCCHcJrm8oiCtwocx7HkVmBWw7my9sQ==" type="application/javascript" src="https://github.githubassets.com/assets/marketing-6fcf7891.js"></script>
+<script crossorigin="anonymous" defer="defer" integrity="sha512-BbHKUTQo8qJVZ+54/uXuojWiSI4lwrUG9drYwQTw9sVFIp3AKBaXYaMAYht68+C2MJU+7scQ5KjBxkUrD8el1A==" type="application/javascript" src="https://github.githubassets.com/assets/marketing-codespaces-05b1ca51.js"></script>
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub Codespaces · GitHub</title>
+    <meta name="description" content="Codespaces has the full power of Visual Studio Code, including the editor, terminal, debugger, settings sync, and any extension.">
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+  <meta name="apple-itunes-app" content="app-id=1477376905" />
+    <meta name="twitter:image:src" content="https://github.githubassets.com/images/modules/site/social-cards/codespaces-ga.png" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="Blazing fast cloud developer environments" /><meta name="twitter:description" content="Codespaces has the full power of Visual Studio Code, including the editor, terminal, debugger, settings sync, and any extension." />
+    <meta property="og:image" content="https://github.githubassets.com/images/modules/site/social-cards/codespaces-ga.png" /><meta property="og:image:alt" content="Codespaces has the full power of Visual Studio Code, including the editor, terminal, debugger, settings sync, and any extension." /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="Blazing fast cloud developer environments" /><meta property="og:url" content="https://github.com/features/codespaces" /><meta property="og:description" content="Codespaces has the full power of Visual Studio Code, including the editor, terminal, debugger, settings sync, and any extension." />
+    
+
+
+
+    
+
+  <link rel="assets" href="https://github.githubassets.com/">
+  
+
+  <meta name="request-id" content="9146:2CB8:1F83FFD:3D4BF50:61F60481" data-pjax-transient="true"/><meta name="html-safe-nonce" content="37f49237b0c8af2d8fdd6aa85273ff9ca383b5a7aa48d40e1792b40df0411596" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9iYWluYTIzL1RocmVhZC1zYWZlLU1hbGxvYy90cmVlL21haW4vYWxsb2NfcG9saWN5X3Rlc3RzIiwicmVxdWVzdF9pZCI6IjkxNDY6MkNCODoxRjgzRkZEOjNENEJGNTA6NjFGNjA0ODEiLCJ2aXNpdG9yX2lkIjoiNjY4MTEwNzE2ODU4NzI4NTYzMyIsInJlZ2lvbl9lZGdlIjoiaWFkIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-pjax-transient="true"/><meta name="visitor-hmac" content="20e9b77c14efe179ac98324454c5656eb641986e5d1276b7fa406cbe6be3dd58" data-pjax-transient="true"/>
+
+
+
+  <meta name="github-keyboard-shortcuts" content="" data-pjax-transient="true" />
+
+  
+
+  <meta name="selected-link" value="/features/codespaces" data-pjax-transient>
+
+    <meta name="google-site-verification" content="c1kuD-K2HIVF635lypcsWPoD4kilo5-jA_wBFyT4uMY">
+  <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+
+<meta name="octolytics-url" content="https://collector.githubapp.com/github/collect" />
+
+  
+
+  
+
+
+
+
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+
+      <meta name="expected-hostname" content="github.com">
+
+
+    <meta name="enabled-features" content="BIDIRECTIONAL_PREVIEWABLE_COMMENTS,MARKETPLACE_PENDING_INSTALLATIONS">
+
+
+  <meta http-equiv="x-pjax-version" content="e8bb684bbdec5e33ecd97c62da08a3c221d67536517a5ff876a0c399494c3d4d">
+  <meta http-equiv="x-pjax-csp-version" content="c7e5b10efd66beaa54ea67f14080eaaa4ebf53faec4f3e2dbaad2fe364dd3b82">
+  <meta http-equiv="x-pjax-css-version" content="d33f18daa7256e40d32df2b085c6beb4ff56dfb7a53b8139421574cd94b7e51a">
+  <meta http-equiv="x-pjax-js-version" content="891291f4702d82197dd0a20e5c6790de54aa21561a12abb42d956b0518017191">
+  
+
+      <link crossorigin="anonymous" media="all" integrity="sha512-dRP/c92HtYkC6Vu2Y8s/Ie9fSRqw1MnLytPmXg6lC5+PgnUKGiwnxbfJyAUdY0XkgeDFC0xTFJ+D1GrAfaFQyA==" rel="stylesheet" href="https://github.githubassets.com/assets/feature-codespaces-7513ff73dd87b58902e95bb663cb3f21.css" />
+  <link rel="preload" href="https://github.githubassets.com/static/fonts/alliance/Alliance-No-1-ExtraBold.woff2" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="https://github.githubassets.com/static/fonts/alliance/Alliance-No-1-Regular.woff2" as="font" type="font/woff" crossorigin>
+
+
+
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <meta name="browser-optimizely-client-errors-url" content="https://api.github.com/_private/browser/optimizely_client/errors">
+
+  <link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000">
+  <link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://github.githubassets.com/favicons/favicon.png">
+  <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+  <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production page-responsive header-dark" style="word-wrap: break-word;">
+    
+
+    <div class="position-relative js-header-wrapper ">
+      <a href="#start-of-content" class="px-2 py-4 color-bg-accent-emphasis color-fg-on-emphasis show-on-focus js-skip-to-content">Skip to content</a>
+      <span data-view-component="true" class="progress-pjax-loader js-pjax-loader-bar Progress position-fixed width-full">
+    <span style="width: 0%;" data-view-component="true" class="Progress-item progress-pjax-loader-bar left-0 top-0 color-bg-accent-emphasis"></span>
+</span>      
+      
+
+
+        
+
+            <header class="Header-old header-logged-out js-details-container Details position-relative f4 py-2" role="banner">
+  <div class="container-xl d-lg-flex flex-items-center p-responsive">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="mr-4 color-fg-inherit" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github">
+    <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+</svg>
+      </a>
+
+        <div class="d-lg-none css-truncate css-truncate-target width-fit p-2">
+          
+
+        </div>
+
+      <div class="d-flex flex-items-center">
+            <a href="/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2Ffeatures%2Fcodespaces&amp;source=header"
+              class="d-inline-block d-lg-none f5 no-underline border color-border-default rounded-2 px-2 py-1 mr-3 mr-sm-5 color-fg-inherit"
+              data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="09f7cc6ea5f75772d8d14925979c6b35fa32e6b4c43af45acc5f7dc49c468cc1"
+            >
+              Sign&nbsp;up
+            </a>
+
+        <button aria-label="Toggle navigation" aria-expanded="false" type="button" data-view-component="true" class="js-details-target btn-link d-lg-none mt-1 color-fg-inherit">  <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true" class="octicon octicon-three-bars">
+    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+</svg>
+</button>      </div>
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--logged-out position-fixed top-0 right-0 bottom-0 height-fit position-lg-relative d-lg-flex flex-justify-between flex-items-center flex-auto">
+      <div class="d-flex d-lg-none flex-justify-end border-bottom color-bg-subtle p-3">
+        <button aria-label="Toggle navigation" aria-expanded="false" type="button" data-view-component="true" class="js-details-target btn-link">  <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-x color-fg-muted">
+    <path fill-rule="evenodd" d="M5.72 5.72a.75.75 0 011.06 0L12 10.94l5.22-5.22a.75.75 0 111.06 1.06L13.06 12l5.22 5.22a.75.75 0 11-1.06 1.06L12 13.06l-5.22 5.22a.75.75 0 01-1.06-1.06L10.94 12 5.72 6.78a.75.75 0 010-1.06z"></path>
+</svg>
+</button>      </div>
+
+        <nav class="mt-0 px-3 px-lg-0 mb-5 mb-lg-0" aria-label="Global">
+          <ul class="d-lg-flex list-style-none">
+              <li class="mr-0 mr-lg-3 position-relative flex-wrap flex-justify-between flex-items-center border-bottom border-lg-bottom-0 d-block d-lg-flex flex-lg-nowrap flex-lg-items-center">
+    <details class="HeaderMenu-details details-overlay details-reset width-full">
+      <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+        Why GitHub?
+        <svg x="0" y="0" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative"><path d="M1,1l6.2,6L13,1"></path></svg>
+      </summary>
+      <div class="dropdown-menu flex-auto rounded px-0 mt-0 pb-4 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+        <ul class="list-style-none f5 pb-1">
+              <li>
+    <a class="lh-condensed-ultra d-block no-underline position-relative Link--primary text-bold py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Features&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Features;&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="9ff6679e0f0bd56467fa8b414a379e91f789b89ee225185cde87f82b9665d158" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Features&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Features;&quot;}" href="/features">
+      Features
+</a>  </li>
+
+              <li>
+    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Mobile&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Mobile;&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="f40826c62b0bd16e0c49e8a00ac9743a7063d3133fac7d3ca21bfb8cc2321d57" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Mobile&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Mobile;&quot;}" href="/mobile">
+      Mobile
+</a>  </li>
+
+              <li>
+    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Actions&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Actions;&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="40c92af260a41deb7339e1066dfca71099b52623eb41d4007fe81f6438d18641" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Actions&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Actions;&quot;}" href="/features/actions">
+      Actions
+</a>  </li>
+
+              <li>
+    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Codespaces&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Codespaces;&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="a979d11beebf787ce73077cb876eeb9e31f4db0054455a832b533e5607db230d" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Codespaces&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Codespaces;&quot;}" href="/features/codespaces">
+      Codespaces
+</a>  </li>
+
+              <li>
+    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Packages&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Packages;&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="82dfc2a1620dc62e2a175d8d163a310323210f87f21bbe986972684b452e196c" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Packages&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Packages;&quot;}" href="/features/packages">
+      Packages
+</a>  </li>
+
+              <li>
+    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Security&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Security;&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="b009cb227e4e01dd381971d1b5a6ca9a1391d21fb25d331c2bb15277051d88a1" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Security&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Security;&quot;}" href="/features/security">
+      Security
+</a>  </li>
+
+              <li>
+    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Code review&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Code review;&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="d9d4630849ef5e5f1b526a17d395108f0de17cdb609efaa23aa0c18473ca2d14" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Code review&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Code review;&quot;}" href="/features/code-review">
+      Code review
+</a>  </li>
+
+              <li>
+    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Issues&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Issues;&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="1b133cc93ef502e0c5ee1ab7a058b9d1848fae7bd0ccb90cb518c4c35434f8bd" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Issues&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Issues;&quot;}" href="/features/issues">
+      Issues
+</a>  </li>
+
+              <li>
+    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Integrations&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Integrations;&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="bc3b6a97d26b92aff0ae3515f45bad41a0d4ce9fbd5fb842a03177dea863924d" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Integrations&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Integrations;&quot;}" href="/features/integrations">
+      Integrations
+</a>  </li>
+
+              <li>
+    <a class="lh-condensed-ultra d-block no-underline position-relative Link--primary text-bold border-top pt-4 pb-2 mt-3" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to GitHub Sponsors&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:GitHub Sponsors;&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="b72189894fde2b01a8e82391e4eb4c4258609a45844a64626b3fc3c826a0178a" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to GitHub Sponsors&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:GitHub Sponsors;&quot;}" href="/sponsors">
+      GitHub Sponsors
+</a>  </li>
+
+              <li>
+    <a class="lh-condensed-ultra d-block no-underline position-relative Link--primary text-bold py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Customer stories&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Customer stories;&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="10171eeb982dd228de0f79c33affe824c8643aac8abe36ae5d69610fd2414193" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Customer stories&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Customer stories;&quot;}" href="/customer-stories">
+      Customer stories
+</a>  </li>
+
+        </ul>
+      </div>
+    </details>
+</li>
+
+
+              <li class="mr-0 mr-lg-3 position-relative flex-wrap flex-justify-between flex-items-center border-bottom border-lg-bottom-0 d-block d-lg-flex flex-lg-nowrap flex-lg-items-center">
+    <a class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header menu top item (logged out)&quot;,&quot;action&quot;:&quot;click to go to Team&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Team;&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="cff0ca2e453d442f6ba5667cbaaacc6512fedbfac7dcdb6b2a36be8d62204656" data-analytics-event="{&quot;category&quot;:&quot;Header menu top item (logged out)&quot;,&quot;action&quot;:&quot;click to go to Team&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Team;&quot;}" href="/team">Team</a>
+</li>
+
+              <li class="mr-0 mr-lg-3 position-relative flex-wrap flex-justify-between flex-items-center border-bottom border-lg-bottom-0 d-block d-lg-flex flex-lg-nowrap flex-lg-items-center">
+    <a class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header menu top item (logged out)&quot;,&quot;action&quot;:&quot;click to go to Enterprise&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Enterprise;&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="e3b070afe01ef3cce15b6d9345a1706092b2cfd20c1dbb534720faadc51b6f0f" data-analytics-event="{&quot;category&quot;:&quot;Header menu top item (logged out)&quot;,&quot;action&quot;:&quot;click to go to Enterprise&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Enterprise;&quot;}" href="/enterprise">Enterprise</a>
+</li>
+
+
+            <li class="mr-0 mr-lg-3 position-relative flex-wrap flex-justify-between flex-items-center border-bottom border-lg-bottom-0 d-block d-lg-flex flex-lg-nowrap flex-lg-items-center">
+    <details class="HeaderMenu-details details-overlay details-reset width-full">
+      <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+        Explore
+        <svg x="0" y="0" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative"><path d="M1,1l6.2,6L13,1"></path></svg>
+      </summary>
+      <div class="dropdown-menu flex-auto rounded px-0 mt-0 pb-4 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+        <ul class="list-style-none f5 pb-1">
+              <li>
+    <a class="lh-condensed-ultra d-block no-underline position-relative Link--primary text-bold py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Explore GitHub&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Explore GitHub;&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="5ba34ab3c9b588dd08533c25c91c596a7bc7b8922595d154e4c324209b854389" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Explore GitHub&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Explore GitHub;&quot;}" href="/explore">
+      Explore GitHub
+</a>  </li>
+
+              <li class="color-fg-muted text-normal f6 text-mono mb-1 border-top pt-3 mt-3 mb-1">Learn and contribute</li>
+
+              <li>
+    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Topics&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Topics;&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="01181277cd965d2a8bda18a2cefb87ef844b1144195c278ab18eeb590f61897e" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Topics&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Topics;&quot;}" href="/topics">
+      Topics
+</a>  </li>
+
+              <li>
+    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Collections&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Collections;&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="328ecdfadef7e6e5deb865329eff7995aca17f1dd74bd6772430ee04b46f722d" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Collections&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Collections;&quot;}" href="/collections">
+      Collections
+</a>  </li>
+
+              <li>
+    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Trending&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Trending;&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="82f9725158349817c12a4e9e10d5c03b4b868509405169d69cb9abc980af2345" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Trending&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Trending;&quot;}" href="/trending">
+      Trending
+</a>  </li>
+
+              <li>
+    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Learning Lab&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Learning Lab;&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="7e41603471a499064e596dc1b3ba225af27dcc321ec8d9576bbcda0e8122379d" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Learning Lab&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Learning Lab;&quot;}" href="https://lab.github.com/">
+      Learning Lab
+</a>  </li>
+
+              <li>
+    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Open source guides&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Open source guides;&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ae6fa07701487456241d58c888d333969bc67a9a6f80eed29de39f4fd95272dd" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Open source guides&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Open source guides;&quot;}" href="https://opensource.guide">
+      Open source guides
+</a>  </li>
+
+              <li class="color-fg-muted text-normal f6 text-mono mb-1 border-top pt-3 mt-3 mb-1">Connect with others</li>
+
+              <li>
+    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to The ReadME Project&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:The ReadME Project;&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="e9c0501b0f8d405d68e61ca8abfa1aa381198f7237825ed0f1d3630298f52c55" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to The ReadME Project&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:The ReadME Project;&quot;}" href="/readme">
+      The ReadME Project
+</a>  </li>
+
+              <li>
+    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Events&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Events;&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="4e3f042ec8d44b5fbd46e2694157ab2502c8a9f3c11df8f0876c8cdbf7d5c39a" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Events&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Events;&quot;}" href="/events">
+      Events
+</a>  </li>
+
+              <li>
+    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Community forum&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Community forum;&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="fd3f4e4b0805b7c2aa9ff30be8201ab991a3d634108457e27345b13ee5cb0ca9" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Community forum&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Community forum;&quot;}" href="https://github.community">
+      Community forum
+</a>  </li>
+
+              <li>
+    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to GitHub Education&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:GitHub Education;&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="80cbdb8267ef1deda6743505f5cd4813fcdfb0a4769397450aedef28473fe410" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to GitHub Education&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:GitHub Education;&quot;}" href="https://education.github.com">
+      GitHub Education
+</a>  </li>
+
+              <li>
+    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to GitHub Stars program&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:GitHub Stars program;&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="d4ab2b6916232e5f82dc9320c524cf1512d0f602c8e886975f9ed6518c03dc77" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to GitHub Stars program&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:GitHub Stars program;&quot;}" href="https://stars.github.com">
+      GitHub Stars program
+</a>  </li>
+
+        </ul>
+      </div>
+    </details>
+</li>
+
+
+            <li class="mr-0 mr-lg-3 position-relative flex-wrap flex-justify-between flex-items-center border-bottom border-lg-bottom-0 d-block d-lg-flex flex-lg-nowrap flex-lg-items-center">
+    <a class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header menu top item (logged out)&quot;,&quot;action&quot;:&quot;click to go to Marketplace&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Marketplace;&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="15a56fce9d22302dec73dc32fcd68f5eaa105efcc01cd6141047a1f1d9cadfd1" data-analytics-event="{&quot;category&quot;:&quot;Header menu top item (logged out)&quot;,&quot;action&quot;:&quot;click to go to Marketplace&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Marketplace;&quot;}" href="/marketplace">Marketplace</a>
+</li>
+
+
+            <li class="mr-0 mr-lg-3 position-relative flex-wrap flex-justify-between flex-items-center border-bottom border-lg-bottom-0 d-block d-lg-flex flex-lg-nowrap flex-lg-items-center">
+    <details class="HeaderMenu-details details-overlay details-reset width-full">
+      <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+        Pricing
+        <svg x="0" y="0" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative"><path d="M1,1l6.2,6L13,1"></path></svg>
+      </summary>
+      <div class="dropdown-menu flex-auto rounded px-0 mt-0 pb-4 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+        <ul class="list-style-none f5 pb-1">
+              <li>
+    <a class="lh-condensed-ultra d-block no-underline position-relative Link--primary text-bold py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Pricing&quot;,&quot;action&quot;:&quot;click to go to Plans&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Plans;&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="7ab9687cb20c3c0dddf5d223d586c0080a2fe63606a5ca2525bc87edc8830627" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Pricing&quot;,&quot;action&quot;:&quot;click to go to Plans&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Plans;&quot;}" href="/pricing">
+      Plans
+</a>  </li>
+
+              <li>
+    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Pricing&quot;,&quot;action&quot;:&quot;click to go to Compare plans&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Compare plans;&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="fde3be4f279566ef4bbbd77dd65a6dcdd99219639817a0691f391c7a972d8a87" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Pricing&quot;,&quot;action&quot;:&quot;click to go to Compare plans&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Compare plans;&quot;}" href="/pricing#compare-features">
+      Compare plans
+</a>  </li>
+
+              <li>
+    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Pricing&quot;,&quot;action&quot;:&quot;click to go to Contact Sales&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Contact Sales;&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="5bccaad427c0d753d15fb558e03087895abbde8563859ab6758921f352430630" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Pricing&quot;,&quot;action&quot;:&quot;click to go to Contact Sales&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Contact Sales;&quot;}" href="https://github.com/enterprise/contact">
+      Contact Sales
+</a>  </li>
+
+              <li>
+    <a class="lh-condensed-ultra d-block no-underline position-relative Link--primary text-bold border-top pt-4 pb-2 mt-3" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Pricing&quot;,&quot;action&quot;:&quot;click to go to Education&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Education;&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="fa690957fc501aaf443eb77bb4a61c7d324ed86fd41138863aff4785de15f007" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Pricing&quot;,&quot;action&quot;:&quot;click to go to Education&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Education;&quot;}" href="https://education.github.com">
+      Education
+</a>  </li>
+
+        </ul>
+      </div>
+    </details>
+</li>
+
+          </ul>
+        </nav>
+
+      <div class="d-lg-flex flex-items-center px-3 px-lg-0 text-center text-lg-left">
+          <div class="d-lg-flex min-width-0 mb-3 mb-lg-0">
+            
+
+
+
+<div class="header-search flex-auto js-site-search position-relative flex-self-stretch flex-md-self-auto mb-3 mb-md-0 mr-0 mr-md-3 js-jump-to"
+>
+  <div class="position-relative">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-unscoped-search-url="/search" action="/search" accept-charset="UTF-8" method="get">
+      <label class="form-control input-sm header-search-wrapper p-0 js-chromeless-input-container header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center">
+        <input type="text"
+          class="form-control input-sm header-search-input jump-to-field js-jump-to-field js-site-search-focus "
+          data-hotkey=s,/
+          name="q"
+          data-test-selector="nav-search-input"
+          placeholder="Search GitHub"
+          data-unscoped-placeholder="Search GitHub"
+          data-scoped-placeholder="Search"
+          autocapitalize="off"
+          role="combobox"
+          aria-haspopup="listbox"
+          aria-expanded="false"
+          aria-autocomplete="list"
+          aria-controls="jump-to-results"
+          aria-label="Search GitHub"
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations"
+          spellcheck="false"
+          autocomplete="off"
+        >
+        <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="DNoYrHrC9kfhdf6kfyvO17rkv+qlRKLNSc3mfQ1Hb0PSOW+2Zwd1zeuuFutqPEVMiLhttoVslWgCBd6oOlaf0g==" />
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" aria-hidden="true" class="mr-1 header-search-key-slash"><path fill="none" stroke="#979A9C" opacity=".4" d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"></path><path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path></svg>
+
+
+          <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
+            
+<ul class="d-none js-jump-to-suggestions-template-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-suggestion" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="" data-item-type="suggestion">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg title="Repository" aria-label="Repository" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo js-jump-to-octicon-repo d-none flex-shrink-0">
+    <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path>
+</svg>
+      <svg title="Project" aria-label="Project" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-project js-jump-to-octicon-project d-none flex-shrink-0">
+    <path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path>
+</svg>
+      <svg title="Search" aria-label="Search" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-search js-jump-to-octicon-search d-none flex-shrink-0">
+    <path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path>
+</svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 color-bg-subtle px-1 color-fg-muted ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in all of GitHub">
+        Search
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 color-bg-subtle px-1 color-fg-muted ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+</ul>
+
+<ul class="d-none js-jump-to-no-results-template-container">
+  <li class="d-flex flex-justify-center flex-items-center f5 d-none js-jump-to-suggestion p-2">
+    <span class="color-fg-muted">No suggested jump to results</span>
+  </li>
+</ul>
+
+<ul id="jump-to-results" role="listbox" class="p-0 m-0 js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-scoped-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="" data-item-type="scoped_search">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg title="Repository" aria-label="Repository" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo js-jump-to-octicon-repo d-none flex-shrink-0">
+    <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path>
+</svg>
+      <svg title="Project" aria-label="Project" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-project js-jump-to-octicon-project d-none flex-shrink-0">
+    <path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path>
+</svg>
+      <svg title="Search" aria-label="Search" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-search js-jump-to-octicon-search d-none flex-shrink-0">
+    <path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path>
+</svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 color-bg-subtle px-1 color-fg-muted ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in all of GitHub">
+        Search
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 color-bg-subtle px-1 color-fg-muted ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-owner-scoped-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="" data-item-type="owner_scoped_search">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg title="Repository" aria-label="Repository" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo js-jump-to-octicon-repo d-none flex-shrink-0">
+    <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path>
+</svg>
+      <svg title="Project" aria-label="Project" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-project js-jump-to-octicon-project d-none flex-shrink-0">
+    <path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path>
+</svg>
+      <svg title="Search" aria-label="Search" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-search js-jump-to-octicon-search d-none flex-shrink-0">
+    <path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path>
+</svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 color-bg-subtle px-1 color-fg-muted ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in all of GitHub">
+        Search
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 color-bg-subtle px-1 color-fg-muted ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-global-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="" data-item-type="global_search">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg title="Repository" aria-label="Repository" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo js-jump-to-octicon-repo d-none flex-shrink-0">
+    <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path>
+</svg>
+      <svg title="Project" aria-label="Project" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-project js-jump-to-octicon-project d-none flex-shrink-0">
+    <path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path>
+</svg>
+      <svg title="Search" aria-label="Search" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-search js-jump-to-octicon-search d-none flex-shrink-0">
+    <path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path>
+</svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 color-bg-subtle px-1 color-fg-muted ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in all of GitHub">
+        Search
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 color-bg-subtle px-1 color-fg-muted ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+
+</ul>
+
+          </div>
+      </label>
+</form>  </div>
+</div>
+
+          </div>
+
+        <div class="position-relative mr-3 mb-4 mb-lg-0 d-inline-block">
+          <a href="/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures%2Fcodespaces"
+            class="HeaderMenu-link flex-shrink-0 no-underline"
+            data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2c736ff171a844fca84e170269ef4401abc948efa022b0e6b93021a28b4ea05f"
+            data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">
+            Sign in
+          </a>
+        </div>
+
+          <a href="/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2Ffeatures%2Fcodespaces&amp;source=header"
+            class="HeaderMenu-link flex-shrink-0 d-inline-block no-underline border color-border-default rounded px-2 py-1"
+            data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2c736ff171a844fca84e170269ef4401abc948efa022b0e6b93021a28b4ea05f"
+            data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Sign up&quot;,&quot;action&quot;:&quot;click to sign up for account&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Sign up;ref_loc:header logged out&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="cc8e8fb026eb181cc5aa3111f6d61090e6da126e947d7365cef4a810ad4a224b" data-analytics-event="{&quot;category&quot;:&quot;Sign up&quot;,&quot;action&quot;:&quot;click to sign up for account&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Sign up;ref_loc:header logged out&quot;}"
+          >
+            Sign up
+          </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+    </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+
+
+
+
+
+
+    <div data-pjax-replace id="js-flash-container">
+
+
+  <template class="js-flash-template">
+    <div class="flash flash-full  {{ className }}">
+  <div class=" px-2" >
+    <button class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
+</svg>
+    </button>
+    
+      <div>{{ message }}</div>
+
+  </div>
+</div>
+  </template>
+</div>
+
+
+    
+
+  <include-fragment class="js-notification-shelf-include-fragment" data-base-src="https://github.com/notifications/beta/shelf"></include-fragment>
+
+
+
+
+
+  <div
+    class="application-main "
+    data-commit-hovercards-enabled
+    data-discussion-hovercards-enabled
+    data-issue-and-pr-hovercards-enabled
+  >
+        <main class="font-mktg">
+
+<div class="overflow-hidden pb-10" data-color-mode="dark" data-light-theme="light" data-dark-theme="dark">
+  
+    
+  <div class="px-3">
+    <div class="pt-10 pb-4 pb-md-7 d-flex flex-column flex-items-center flex-lg-column text-center">
+  <h1 class="h1-mktg mx-auto col-10-max color-fg-default">Blazing fast cloud<br>developer environments</h1>
+  	<p class="f3-mktg col-7-max mx-auto mt-4 color-fg-muted">Visual Studio Code backed by high performance VMs that start in seconds.</p>
+
+  <div class="mt-4 mt-md-6 mb-4 position-relative z-2 by-2 by-lg-0 bx-lg-2 d-flex flex-column flex-lg-row">
+    
+        <a class="btn-mktg btn-large-mktg" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Hero ctas&quot;,&quot;action&quot;:&quot;click to Get started&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Get started;ref_loc:Hero ctas;&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="25ea74bd96da74a4a885f7bc5a8902bf089b7d5088f5ab5b0099f6c019f4572d" data-analytics-event="{&quot;category&quot;:&quot;Hero ctas&quot;,&quot;action&quot;:&quot;click to Get started&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Get started;ref_loc:Hero ctas;&quot;}" href="https://docs.github.com/en/codespaces">
+  Get started
+  
+  <svg xmlns="http://www.w3.org/2000/svg" class="octicon arrow-symbol-mktg" width="16" height="16" viewBox="0 0 16 16" fill="none"><path fill="currentColor" d="M7.28033 3.21967C6.98744 2.92678 6.51256 2.92678 6.21967 3.21967C5.92678 3.51256 5.92678 3.98744 6.21967 4.28033L7.28033 3.21967ZM11 8L11.5303 8.53033C11.8232 8.23744 11.8232 7.76256 11.5303 7.46967L11 8ZM6.21967 11.7197C5.92678 12.0126 5.92678 12.4874 6.21967 12.7803C6.51256 13.0732 6.98744 13.0732 7.28033 12.7803L6.21967 11.7197ZM6.21967 4.28033L10.4697 8.53033L11.5303 7.46967L7.28033 3.21967L6.21967 4.28033ZM10.4697 7.46967L6.21967 11.7197L7.28033 12.7803L11.5303 8.53033L10.4697 7.46967Z"></path><path class="octicon-chevrow-stem" stroke="currentColor" d="M1.75 8H11" stroke-width="1.5" stroke-linecap="round"></path></svg>
+
+</a>
+  </div>
+</div>
+
+  </div>
+
+  <div class="d-flex flex-justify-center flex-items-center mt-4 position-relative z-1 mb-4">
+    <label for="codespaces-layout-toggle" class="f3 text-semibold">Desktop</label>
+    <div class="codespaces-toggle position-relative mx-2">
+      <input id="codespaces-layout-toggle" name="codespaces-layout-toggle" class="js-codespaces-toggle codespaces-toggle-checkbox width-full height-full" type="checkbox" checked>
+      <span class="codespaces-toggle-knob position-absolute events-none"></span>
+    </div>
+    <label for="codespaces-layout-toggle" class="f3 text-semibold">Browser</label>
+  </div>
+
+  <div class="d-flex position-relative flex-justify-center flex-items-end" style="width: 130vw; left: -15vw">
+    <div class="col-2 col-sm-4 mr-4 d-flex flex-justify-end flex-items-end flex-wrap" style="max-width: 450px;">
+      <div class="col-3 box-shadow-card-dark-mktg rounded-2 color-bg-overlay mb-3" style="height: 1px;padding-bottom: 20%; margin-top: 20%; opacity: 70%;"></div>
+
+      <div class="col-12 flex-justify-end mb-3 d-none d-md-flex">
+        <div class="col-4 box-shadow-card-dark-mktg rounded-2 color-bg-overlay height-auto d-none d-lg-block" style="opacity: 70%;"></div>
+        <div class="p-4 box-shadow-card-dark-mktg rounded-2 color-bg-overlay ml-2 ml-lg-4">
+          <p class="f4-mktg color-fg-muted mb-0">CPUs up to</p>
+          <h3 class="h3-mktg text-gradient--blue-purple">32 <span class="h5-mktg">cores</span></h3>
+        </div>
+      </div>
+
+      <div class="box-shadow-card-dark-mktg rounded-2 overflow-hidden p-2 p-md-4 col-7 color-bg-overlay mb-3">
+        <img src="https://github.githubassets.com/images/modules/site/codespaces/illo-hero-icons.png" alt="" class="width-fit d-block height-auto" width="438" height="29">
+      </div>
+
+      <div class="box-shadow-card-dark-mktg rounded-2 overflow-hidden p-2 p-md-4 col-7 color-bg-overlay">
+        <img src="https://github.githubassets.com/images/modules/site/codespaces/illo-hero-debugger.png" alt="" class="width-fit d-block height-auto" width="372" height="272">
+      </div>
+    </div>
+
+    <div class="position-relative z-1 col-9-max js-codespaces-layout-container codespaces-layout-container">
+      <div class="box-shadow-card-dark-mktg rounded-2 overflow-hidden width-full">
+        <picture>
+          <source srcset="https://github.githubassets.com/images/modules/site/codespaces/illo-codespaces.webp" type="image/webp">
+          <img src="https://github.githubassets.com/images/modules/site/codespaces/illo-codespaces.png" alt="" class="width-full d-block height-auto codespaces-hero-browser" width="2064" height="1308">
+        </picture>
+        <picture>
+          <source srcset="https://github.githubassets.com/images/modules/site/codespaces/illo-codespaces-desktop.webp" type="image/webp">
+          <img src="https://github.githubassets.com/images/modules/site/codespaces/illo-codespaces-desktop.png" alt="" class="width-full height-auto codespaces-hero-desktop" width="2064" height="1308">
+        </picture>
+      </div>
+      <img src="https://github.githubassets.com/images/modules/site/codespaces/glow.png" alt="" class="position-absolute height-auto z-n1 events-none" width="30" height="22" style="width: 180%;left: -40%;top: -60%;">
+    </div>
+
+    <div class="col-2 col-sm-4 ml-4 d-flex flex-justify-start flex-items-end flex-wrap" style="max-width: 450px;">
+      <div class="col-2 box-shadow-card-dark-mktg rounded-2 color-bg-overlay mb-3 d-none d-md-block" style="height: 1px;padding-bottom: 30%; margin-top: 5%; opacity: 70%;"></div>
+
+      <div class="col-12 flex-justify-start mb-3 d-none d-md-flex">
+        <div class="p-4 box-shadow-card-dark-mktg rounded-2 color-bg-overlay mr-2 mr-lg-3">
+          <p class="f4-mktg color-fg-muted mb-0">Memory up to</p>
+          <h3 class="h3-mktg text-gradient--blue-purple">64&nbsp;<span class="h5-mktg">GB</span></h3>
+        </div>
+        <div class="col-4 box-shadow-card-dark-mktg rounded-2 color-bg-overlay height-auto d-none d-lg-block mt-7" style="opacity: 70%;"></div>
+      </div>
+
+      <div class="box-shadow-card-dark-mktg rounded-2 overflow-hidden p-md-2 col-7 color-bg-overlay mb-3">
+        <img src="https://github.githubassets.com/images/modules/site/codespaces/illo-hero-branches.png" alt="" class="width-fit d-block height-auto" width="480" height="352">
+      </div>
+
+      <div class="col-12 d-flex">
+        <div class="box-shadow-card-dark-mktg rounded-2 overflow-hidden p-2 p-md-4 color-bg-overlay">
+          <img src="https://github.githubassets.com/images/modules/site/codespaces/illo-hero-commits.png" alt="" class="d-block height-auto width-fit" width="60" height="64" style="width: 30px">
+        </div>
+
+        <div class="box-shadow-card-dark-mktg rounded-2 overflow-hidden p-2 p-md-4 color-bg-overlay ml-2 ml-lg-3" style="opacity: 0.7">
+          <img src="https://github.githubassets.com/images/modules/site/codespaces/illo-hero-vm.png" alt="" class="d-block height-auto width-fit" width="64" height="64" style="width: 32px">
+        </div>
+
+        <div class="box-shadow-card-dark-mktg rounded-2 overflow-hidden p-2 p-md-4 color-bg-overlay ml-2 ml-lg-3" style="opacity: 0.5">
+          <img src="https://github.githubassets.com/images/modules/site/codespaces/illo-hero-checks.png" alt="" class="d-block height-auto width-fit" width="73" height="54" style="width: 36px">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-flex position-relative flex-justify-center flex-items-start mt-3 mt-md-4" style="width: 130vw; left: -15vw">
+    <div class="col-2 col-sm-4 mr-4 d-flex flex-justify-end flex-items-start" style="max-width: 450px;">
+      <div class="col-3 box-shadow-card-dark-mktg rounded-2 color-bg-overlay mr-3" style="height: 1px;padding-bottom: 20%; opacity: 70%;"></div>
+
+      <div class="box-shadow-card-dark-mktg rounded-2 overflow-hidden p-2 p-md-4 color-bg-overlay" style="opacity: 0.5">
+          <img src="https://github.githubassets.com/images/modules/site/codespaces/illo-hero-vscode.png" alt="" class="d-block height-auto width-fit" width="112" height="112" style="width: 56px">
+        </div>
+    </div>
+
+    <div class="position-relative col-9-max d-flex flex-column">
+      <div class="d-flex">
+        <div class="box-shadow-card-dark-mktg rounded-2 overflow-hidden p-2 p-md-4 color-bg-overlay">
+          <img src="https://github.githubassets.com/images/modules/site/codespaces/illo-hero-stats.png" alt="" class="d-block width-fit height-auto" width="1052" height="38">
+        </div>
+
+        <div class="box-shadow-card-dark-mktg rounded-2 overflow-hidden p-2 p-md-4 color-bg-overlay ml-2 ml-lg-3">
+          <img src="https://github.githubassets.com/images/modules/site/codespaces/illo-hero-tabs.png" alt="" class="d-block width-fit height-auto" width="804" height="34">
+        </div>
+      </div>
+
+      <div class="d-flex flex-items-start flex-justify-between mt-3">
+        <div class="box-shadow-card-dark-mktg rounded-2 overflow-hidden p-2 p-md-4 mr-2 mr-lg-3 color-bg-overlay d-none d-sm-block" style="opacity: 0.5">
+          <img src="https://github.githubassets.com/images/modules/site/codespaces/illo-hero-bugs.png" alt="" class="d-block height-auto width-fit" width="418" height="150" style="width: 209px">
+        </div>
+
+        <div class="box-shadow-card-dark-mktg rounded-2 overflow-hidden p-2 p-md-4 pr-md-5 pr-lg-8 mr-2 mr-lg-3 color-bg-overlay flex-1" style="opacity: 0.5">
+          <img src="https://github.githubassets.com/images/modules/site/codespaces/illo-hero-setup.png" alt="" class="d-block height-auto width-fit" width="504" height="210" style="width: 252px">
+        </div>
+
+        <div class="col-2 box-shadow-card-dark-mktg rounded-2 overflow-hidden color-bg-overlay mr-2 mr-lg-3" style="height: 1px; opacity: 0.4; padding-bottom: 7%;"></div>
+
+        <div class="box-shadow-card-dark-mktg rounded-2 overflow-hidden p-2 p-md-4 color-bg-overlay" style="opacity: 0.5">
+          <img src="https://github.githubassets.com/images/modules/site/codespaces/illo-hero-docker.png" alt="" class="d-block height-auto width-fit" width="178" height="108" style="width: 89px">
+        </div>
+      </div>
+    </div>
+
+    <div class="col-2 col-sm-4 ml-4 d-flex flex-justify-start flex-items-start flex-wrap" style="max-width: 450px;">
+      <div class="box-shadow-card-dark-mktg rounded-2 overflow-hidden p-2 p-md-4 color-bg-overlay" style="opacity: 0.5">
+        <img src="https://github.githubassets.com/images/modules/site/codespaces/illo-hero-ports.png" alt="" class="d-block height-auto width-fit" width="464" height="332" style="width: 232px">
+      </div>
+    </div>
+  </div>
+
+  
+</div>
+<div class="overflow-hidden px-3" data-color-mode="dark" data-light-theme="light" data-dark-theme="dark">
+  <div class="container-xl">
+    
+  <div class="river-mktg js-build-in-trigger d-flex flex-column gutter gutter-spacious flex-md-items-center my-3 my-sm-7 my-md-8 position-relative flex-md-row pb-4 pb-md-7" data-build-in-stagger=100 >
+  <div class="col-12 py-3 js-build-in-item col-sm-10 col-md-6 col-lg-6 build-in-slideX-right">
+    <div class="pr-md-4">
+      
+      
+      
+      
+      <h3 class="color-fg-default h3-mktg mb-3">The full power of Visual Studio Code</h3>
+      <p class="f3-mktg color-fg-muted col-6-max">Use the full power of Visual Studio Code, including the editor, terminal, debugger, version control, settings sync, and the entire ecosystem of extensions. Work in the browser or hand off to your desktop.</p>
+      
+            <img src="https://github.githubassets.com/images/modules/site/codespaces/logos.png" alt="Codespaces works in Visual Studio Code, Chrome, Edge, Firefox, and Safari." loading="lazy" decoding="async" class="width-full mt-3 height-auto js-build-in-item build-in-slideX-left" style="max-width: 321px" width="644" height="82">
+
+    </div>
+  </div>
+
+  <div class="col-12 py-3 col-md-6 col-lg-6">
+    <div class="position-relative">
+      
+
+    <div class="d-flex flex-column">
+      <div class="box-shadow-card-dark-mktg overflow-hidden rounded-1" style="max-width: 571px">
+        <picture>
+          <source srcset="https://github.githubassets.com/images/modules/site/codespaces/illo-vscode.webp" type="image/webp">
+          <img src="https://github.githubassets.com/images/modules/site/codespaces/illo-vscode.png" alt="" loading="lazy" decoding="async" class="width-full d-block height-auto" width="1142" height="725">
+        </picture>
+      </div>
+      <div class="box-shadow-card-dark-mktg overflow-hidden rounded-2 position-relative z-1 flex-self-end js-build-in-item build-in-slideX-left" style="max-width: 491px; margin-top: -20%">
+        <img src="https://github.githubassets.com/images/modules/site/codespaces/illo-terminal.png" alt=""  decoding="async" class="width-full height-auto d-block" width="982" height="430">
+      </div>
+    </div>
+
+    </div>
+  </div>
+</div>
+
+  <div class="river-mktg js-build-in-trigger d-flex flex-column gutter gutter-spacious flex-md-items-center my-3 my-sm-7 my-md-8 position-relative flex-md-row pb-4 pb-md-7" data-build-in-stagger=100 >
+  <div class="col-12 py-3 js-build-in-item col-sm-10 col-md-6 col-lg-6 build-in-slideX-right">
+    <div class="pr-md-4">
+      
+      
+      
+      
+      <h3 class="color-fg-default h3-mktg mb-3">Faster than your laptop</h3>
+      <p class="f3-mktg color-fg-muted col-6-max">Spin up new dev environment for any sized project in seconds with prebuilt images. GitHub’s own 35GB dev image starts in under 10 seconds. Scale your cloud VMs up to 32 cores and 64GB of RAM. And with low-latency connections across four regions, you won’t even remember it’s not your local machine.</p>
+      
+            <div class="d-sm-flex mb-3 mb-sm-0 flex-justify-between mt-6">
+        <div class="col-sm-4 js-build-in-item build-in-slideX-left">
+          <p class="f4-mktg color-fg-muted mb-0">CPUs up to</p>
+          <p class="h4-mktg color-fg-default">32 cores</p>
+        </div>
+        <div class="col-sm-4 mb-3 mb-sm-0 js-build-in-item build-in-slideX-left">
+          <p class="f4-mktg color-fg-muted mb-0">Memory up to</p>
+          <p class="h4-mktg color-fg-default">64 GB</p>
+        </div>
+        <div class="col-sm-4 js-build-in-item build-in-slideX-left">
+          <p class="f4-mktg color-fg-muted mb-0">Spin up</p>
+          <p class="h4-mktg color-fg-default">&#60;10 sec</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="col-12 py-3 col-md-6 col-lg-6">
+    <div class="position-relative">
+      
+          <picture>
+  <source srcset="https://github.githubassets.com/images/modules/site/codespaces/illo-cpu.webp" type="image/webp"></source>
+  <img class="codespaces-illo-cpu position-relative height-auto" width="1577" height="1508" loading="lazy" decoding="async" aria-hidden="true" alt="" src="https://github.githubassets.com/images/modules/site/codespaces/illo-cpu.png" />
+</picture>
+    </div>
+  </div>
+</div>
+
+  <div class="river-mktg js-build-in-trigger d-flex flex-column gutter gutter-spacious flex-md-items-center my-3 my-sm-7 my-md-8 position-relative flex-md-row pb-4 pb-md-7" data-build-in-stagger=100 >
+  <div class="col-12 py-3 js-build-in-item col-sm-10 col-md-6 col-lg-6 build-in-slideX-right">
+    <div class="pr-md-4">
+      
+      
+      
+      
+      <h3 class="color-fg-default h3-mktg mb-3">Standardized dev environments</h3>
+      <p class="f3-mktg color-fg-muted col-6-max">Join a new team and just start coding. Standardize environments, runtime requirements, hardware specs, extensions and editor settings in <code><i>.devcontainer.json</i></code> configuration files. Isolate dependencies between projects with containers and <code>docker-compose</code>.</p>
+      
+      
+    </div>
+  </div>
+
+  <div class="col-12 py-3 col-md-6 col-lg-6">
+    <div class="position-relative">
+      
+    <div class="d-flex flex-column">
+      <div class="box-shadow-card-dark-mktg overflow-hidden rounded-2 position-relative z-1 flex-self-center flex-lg-self-end mr-4" style="max-width: 539px;">
+        <img src="https://github.githubassets.com/images/modules/site/codespaces/illo-env-bg.png" alt="" loading="lazy" decoding="async" class="width-full d-block color-shadow-large height-auto" width="1060" height="1122">
+      </div>
+      <div class="flex-self-center flex-lg-self-end position-relative z-1 mb-1 mb-md-7 offset-1  codespaces-standardized-env">
+        <img src="https://github.githubassets.com/images/modules/site/codespaces/illo-env-ports-settings.png" alt="" loading="lazy" decoding="async" class="js-build-in-item build-in-slideX-left card-dashed-mktg width-full d-block rounded-2 mb-4 height-auto" width="946" height="318" style="max-width: 473px">
+        <img src="https://github.githubassets.com/images/modules/site/codespaces/illo-env-post-create.png" alt="" loading="lazy" decoding="async" class="js-build-in-item build-in-slideX-left card-dashed-mktg width-full d-block rounded-2 mb-4 height-auto" width="896" height="138" style="max-width: 420px">
+        <img src="https://github.githubassets.com/images/modules/site/codespaces/illo-env-extensions.png" alt="" loading="lazy" decoding="async" class="js-build-in-item build-in-slideX-left card-dashed-mktg width-full d-block rounded-2 mb-4 height-auto" width="946" height="344" style="max-width: 473px">
+      </div>
+    </div>
+
+    </div>
+  </div>
+</div>
+
+  <div class="river-mktg js-build-in-trigger d-flex flex-column gutter gutter-spacious flex-md-items-center my-3 my-sm-7 my-md-8 position-relative flex-md-row pb-4 pb-md-7" data-build-in-stagger=100 >
+  <div class="col-12 py-3 js-build-in-item col-sm-10 col-md-6 col-lg-6 build-in-slideX-right">
+    <div class="pr-md-4">
+      
+      
+      
+      
+      <h3 class="color-fg-default h3-mktg mb-3">Browser preview and port forwarding</h3>
+      <p class="f3-mktg color-fg-muted col-6-max">Preview your changes in the browser with instant reloads (websocket and HMR support) and share private and public ports with your teammates.</p>
+      
+      
+    </div>
+  </div>
+
+  <div class="col-12 py-3 col-md-6 col-lg-6">
+    <div class="position-relative">
+      
+    <div class="d-flex flex-column">
+      <div class="box-shadow-card-dark-mktg overflow-hidden rounded-1 flex-self-end mr-4" style="max-width: 538px">
+        <img src="https://github.githubassets.com/images/modules/site/codespaces/illo-hello.png" alt="" loading="lazy" decoding="async" class="box-shadow-card-dark-mktg width-full d-block">
+      </div>
+      <div class="js-build-in-item build-in-slideX-left box-shadow-card-dark-mktg overflow-hidden rounded-2 position-relative z-2 flex-self-end" style="max-width: 300px; margin-top: -30%; margin-right: 10%">
+        <img src="https://github.githubassets.com/images/modules/site/codespaces/illo-context-menu.png" alt="" decoding="async" class="width-full d-block">
+        <img src="https://github.githubassets.com/images/modules/site/codespaces/illo-cursor.png" alt="" decoding="async" class="position-absolute js-build-in-item build-in-slideX-left" width="30" style="right: 20%; bottom: 23%">
+      </div>
+      <div class="js-build-in-item build-in-slideX-right box-shadow-card-dark-mktg overflow-hidden rounded-2 position-relative z-1" style="max-width: 373px; margin-top: -20%">
+        <img src="https://github.githubassets.com/images/modules/site/codespaces/illo-ports.png" alt="" decoding="async" class="width-full d-block">
+      </div>
+    </div>
+
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+<div class="overflow-hidden" data-color-mode="dark" data-light-theme="light" data-dark-theme="dark">
+  
+    
+  <div class="river-mktg js-build-in-trigger d-flex flex-column gutter gutter-spacious flex-md-items-center my-3 my-sm-7 my-md-8 position-relative flex-md-column text-center" data-build-in-stagger=70 data-build-margin-bottom=50>
+  <div class="col-12 py-3">
+    <div class="">
+      
+      
+      
+      
+      <h3 class="color-fg-default h3-mktg mb-3 col-lg-7 mx-lg-auto px-3">Tabs, spaces, Monokai, Solarized, light, dark, Prettier, Beautify…</h3>
+      <p class="f3-mktg color-fg-muted px-3 mx-auto col-7-max">Every nerdy detail only you care about, configured just right, backed by your own dotfiles repository.</p>
+      
+      
+    </div>
+  </div>
+
+  <div class="col-12 py-3">
+    <div class="position-relative">
+      
+    <div class="position-relative z-1 mx-auto mt-5">
+      <div class="d-flex flex-justify-center">
+
+        <div class="position-relative px-4">
+          <div class="rounded-1 box-shadow-card-dark-mktg overflow-hidden position-absolute top-6 d-none d-md-block js-build-in-item build-in-slideX-left" style="right: 103%;">
+            <picture>
+  <source srcset="https://github.githubassets.com/images/modules/site/codespaces/theme-left.webp" type="image/webp"></source>
+  <img class="height-auto d-block" width="1272" height="880" style="width: 636px" loading="lazy" decoding="async" aria-hidden="true" alt="" src="https://github.githubassets.com/images/modules/site/codespaces/theme-left.png" />
+</picture>
+          </div>
+
+          <div class="rounded-1 box-shadow-card-dark-mktg overflow-hidden">
+            <picture>
+  <source srcset="https://github.githubassets.com/images/modules/site/codespaces/theme-middle.webp" type="image/webp"></source>
+  <img class="width-fit height-auto d-block" width="1600" height="880" style="width: 800px" loading="lazy" decoding="async" aria-hidden="true" alt="" src="https://github.githubassets.com/images/modules/site/codespaces/theme-middle.png" />
+</picture>
+          </div>
+
+          <div class="rounded-1 box-shadow-card-dark-mktg overflow-hidden position-absolute top-6 d-none d-md-block js-build-in-item build-in-slideX-right" style="left: 103%;">
+            <picture>
+  <source srcset="https://github.githubassets.com/images/modules/site/codespaces/theme-right.webp" type="image/webp"></source>
+  <img class="height-auto d-block" width="1272" height="880" style="width: 636px;" loading="lazy" decoding="async" aria-hidden="true" alt="" src="https://github.githubassets.com/images/modules/site/codespaces/theme-right.png" />
+</picture>
+          </div>
+
+          <img src="https://github.githubassets.com/images/modules/site/codespaces/glow.png" alt="" class="position-absolute right-0 height-auto z-n1 events-none" width="30" height="22" style="width: 200%; left: -50%; top: -90%; opacity: 0.7">
+        </div>
+
+      </div>
+    </div>
+
+    <div class="position-relative z-1 text-left mt-4">
+      <div class="width-full d-flex flex-justify-between pl-3">
+        <div class="flex-shrink-0 mr-3 js-build-in-item build-in-slideX-left" style="width: 260px">
+  <div class="d-block mb-3 p-3 rounded-2 color-bg-overlay box-shadow-card-dark-mktg no-underline">
+    <div class="d-flex flex-items-center mb-2">
+      <img src="https://github.githubassets.com/images/modules/site/codespaces/extensions/python.png" alt="" class="avatar-6 mr-3" loading="lazy" decoding="async">
+      <div>
+        <h3 class="f5-mktg mb-0 text-semibold color-text-white">Python</h3>
+        <p style="min-height: 3em" class="f6-mktg mb-0 line-clamp-2 color-fg-muted">Rich support for Python.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <div class="flex-shrink-0 mr-3 js-build-in-item build-in-slideX-left" style="width: 260px">
+  <div class="d-block mb-3 p-3 rounded-2 color-bg-overlay box-shadow-card-dark-mktg no-underline">
+    <div class="d-flex flex-items-center mb-2">
+      <img src="https://github.githubassets.com/images/modules/site/codespaces/extensions/c-c.png" alt="" class="avatar-6 mr-3" loading="lazy" decoding="async">
+      <div>
+        <h3 class="f5-mktg mb-0 text-semibold color-text-white">C/C++</h3>
+        <p style="min-height: 3em" class="f6-mktg mb-0 line-clamp-2 color-fg-muted">Adds language support for C/C++</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <div class="flex-shrink-0 mr-3 js-build-in-item build-in-slideX-left" style="width: 260px">
+  <div class="d-block mb-3 p-3 rounded-2 color-bg-overlay box-shadow-card-dark-mktg no-underline">
+    <div class="d-flex flex-items-center mb-2">
+      <img src="https://github.githubassets.com/images/modules/site/codespaces/extensions/jupyter.png" alt="" class="avatar-6 mr-3" loading="lazy" decoding="async">
+      <div>
+        <h3 class="f5-mktg mb-0 text-semibold color-text-white">Jupyter</h3>
+        <p style="min-height: 3em" class="f6-mktg mb-0 line-clamp-2 color-fg-muted">provides basic notebook support for language kernels</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <div class="flex-shrink-0 mr-3 js-build-in-item build-in-slideX-left" style="width: 260px">
+  <div class="d-block mb-3 p-3 rounded-2 color-bg-overlay box-shadow-card-dark-mktg no-underline">
+    <div class="d-flex flex-items-center mb-2">
+      <img src="https://github.githubassets.com/images/modules/site/codespaces/extensions/es-lint.png" alt="" class="avatar-6 mr-3" loading="lazy" decoding="async">
+      <div>
+        <h3 class="f5-mktg mb-0 text-semibold color-text-white">ES Lint</h3>
+        <p style="min-height: 3em" class="f6-mktg mb-0 line-clamp-2 color-fg-muted">Integrates ESLint JavaScript into VS Code</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <div class="flex-shrink-0 mr-3 js-build-in-item build-in-slideX-left" style="width: 260px">
+  <div class="d-block mb-3 p-3 rounded-2 color-bg-overlay box-shadow-card-dark-mktg no-underline">
+    <div class="d-flex flex-items-center mb-2">
+      <img src="https://github.githubassets.com/images/modules/site/codespaces/extensions/prettier.png" alt="" class="avatar-6 mr-3" loading="lazy" decoding="async">
+      <div>
+        <h3 class="f5-mktg mb-0 text-semibold color-text-white">Prettier</h3>
+        <p style="min-height: 3em" class="f6-mktg mb-0 line-clamp-2 color-fg-muted">An opinionated code formatter for consistent style</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <div class="flex-shrink-0 mr-3 js-build-in-item build-in-slideX-left" style="width: 260px">
+  <div class="d-block mb-3 p-3 rounded-2 color-bg-overlay box-shadow-card-dark-mktg no-underline">
+    <div class="d-flex flex-items-center mb-2">
+      <img src="https://github.githubassets.com/images/modules/site/codespaces/extensions/live-server.png" alt="" class="avatar-6 mr-3" loading="lazy" decoding="async">
+      <div>
+        <h3 class="f5-mktg mb-0 text-semibold color-text-white">Live Server</h3>
+        <p style="min-height: 3em" class="f6-mktg mb-0 line-clamp-2 color-fg-muted">Live reload feature for static &amp; dynamic pages</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+      <div class="width-full flex-shrink-0 d-flex flex-justify-between left-n6 position-relative">
+        <div class="flex-shrink-0 mr-3 js-build-in-item build-in-slideX-left" style="width: 260px">
+  <div class="d-block mb-3 p-3 rounded-2 color-bg-overlay box-shadow-card-dark-mktg no-underline">
+    <div class="d-flex flex-items-center mb-2">
+      <img src="https://github.githubassets.com/images/modules/site/codespaces/extensions/material-icon-theme.png" alt="" class="avatar-6 mr-3" loading="lazy" decoding="async">
+      <div>
+        <h3 class="f5-mktg mb-0 text-semibold color-text-white">Material Icon Theme</h3>
+        <p style="min-height: 3em" class="f6-mktg mb-0 line-clamp-2 color-fg-muted">Material Design Icons for Visual Studio Code</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <div class="flex-shrink-0 mr-3 js-build-in-item build-in-slideX-left" style="width: 260px">
+  <div class="d-block mb-3 p-3 rounded-2 color-bg-overlay box-shadow-card-dark-mktg no-underline">
+    <div class="d-flex flex-items-center mb-2">
+      <img src="https://github.githubassets.com/images/modules/site/codespaces/extensions/c.png" alt="" class="avatar-6 mr-3" loading="lazy" decoding="async">
+      <div>
+        <h3 class="f5-mktg mb-0 text-semibold color-text-white">C#</h3>
+        <p style="min-height: 3em" class="f6-mktg mb-0 line-clamp-2 color-fg-muted">C# editing support for Visual Studio Code</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <div class="flex-shrink-0 mr-3 js-build-in-item build-in-slideX-left" style="width: 260px">
+  <div class="d-block mb-3 p-3 rounded-2 color-bg-overlay box-shadow-card-dark-mktg no-underline">
+    <div class="d-flex flex-items-center mb-2">
+      <img src="https://github.githubassets.com/images/modules/site/codespaces/extensions/vetur.png" alt="" class="avatar-6 mr-3" loading="lazy" decoding="async">
+      <div>
+        <h3 class="f5-mktg mb-0 text-semibold color-text-white">Vetur</h3>
+        <p style="min-height: 3em" class="f6-mktg mb-0 line-clamp-2 color-fg-muted">Vue tooling for VS Code</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <div class="flex-shrink-0 mr-3 js-build-in-item build-in-slideX-left" style="width: 260px">
+  <div class="d-block mb-3 p-3 rounded-2 color-bg-overlay box-shadow-card-dark-mktg no-underline">
+    <div class="d-flex flex-items-center mb-2">
+      <img src="https://github.githubassets.com/images/modules/site/codespaces/extensions/github-copilot.png" alt="" class="avatar-6 mr-3" loading="lazy" decoding="async">
+      <div>
+        <h3 class="f5-mktg mb-0 text-semibold color-text-white">GitHub Copilot</h3>
+        <p style="min-height: 3em" class="f6-mktg mb-0 line-clamp-2 color-fg-muted">AI pair programmer trained on billions of lines of code</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <div class="flex-shrink-0 mr-3 js-build-in-item build-in-slideX-left" style="width: 260px">
+  <div class="d-block mb-3 p-3 rounded-2 color-bg-overlay box-shadow-card-dark-mktg no-underline">
+    <div class="d-flex flex-items-center mb-2">
+      <img src="https://github.githubassets.com/images/modules/site/codespaces/extensions/gitlens.png" alt="" class="avatar-6 mr-3" loading="lazy" decoding="async">
+      <div>
+        <h3 class="f5-mktg mb-0 text-semibold color-text-white">GitLens</h3>
+        <p style="min-height: 3em" class="f6-mktg mb-0 line-clamp-2 color-fg-muted">Supercharge the Git capabilities built into VS Code</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <div class="flex-shrink-0 mr-3 js-build-in-item build-in-slideX-left" style="width: 260px">
+  <div class="d-block mb-3 p-3 rounded-2 color-bg-overlay box-shadow-card-dark-mktg no-underline">
+    <div class="d-flex flex-items-center mb-2">
+      <img src="https://github.githubassets.com/images/modules/site/codespaces/extensions/debugger-for-java.png" alt="" class="avatar-6 mr-3" loading="lazy" decoding="async">
+      <div>
+        <h3 class="f5-mktg mb-0 text-semibold color-text-white">Debugger for Java</h3>
+        <p style="min-height: 3em" class="f6-mktg mb-0 line-clamp-2 color-fg-muted">A lightweight Java debugger for Visual Studio Code</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <div class="flex-shrink-0 mr-3 js-build-in-item build-in-slideX-left" style="width: 260px">
+  <div class="d-block mb-3 p-3 rounded-2 color-bg-overlay box-shadow-card-dark-mktg no-underline">
+    <div class="d-flex flex-items-center mb-2">
+      <img src="https://github.githubassets.com/images/modules/site/codespaces/extensions/docker.png" alt="" class="avatar-6 mr-3" loading="lazy" decoding="async">
+      <div>
+        <h3 class="f5-mktg mb-0 text-semibold color-text-white">Docker</h3>
+        <p style="min-height: 3em" class="f6-mktg mb-0 line-clamp-2 color-fg-muted">Create, manage, and debug containerized applications</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+
+    </div>
+  </div>
+</div>
+
+  
+</div>
+<div class="overflow-hidden px-3 pb-10" data-color-mode="dark" data-light-theme="light" data-dark-theme="dark">
+  <div class="container-xl">
+    
+  <div class="river-mktg js-build-in-trigger d-flex flex-column gutter gutter-spacious flex-md-items-center my-3 my-sm-7 my-md-8 position-relative flex-md-column text-center pb-4 pb-md-7" data-build-in-stagger=100 >
+  <div class="col-12 py-3">
+    <div class="">
+      
+      
+      
+      
+      <h3 class="color-fg-default h2-mktg mb-3 mt-5 col-lg-9 mx-lg-auto px-3">GitHub builds with Codespaces</h3>
+      
+      
+            <a class="link-mktg text-semibold color-fg-default py-1 f3-mktg" href="https://github.blog/2021-08-11-githubs-engineering-team-moved-codespaces" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Learn how GitHub builds GitHub with Codespaces&quot;,&quot;action&quot;:&quot;click to Learn how GitHub builds GitHub with Codespaces&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Learn how GitHub builds GitHub with Codespaces;&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="79cdb453fd9c14ea781763dec808e8a4cedf577756f9387111e033fcfe346807" data-analytics-event="{&quot;category&quot;:&quot;Learn how GitHub builds GitHub with Codespaces&quot;,&quot;action&quot;:&quot;click to Learn how GitHub builds GitHub with Codespaces&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Learn how GitHub builds GitHub with Codespaces;&quot;}">
+  Learn how GitHub builds GitHub with Codespaces <svg xmlns="http://www.w3.org/2000/svg" class="octicon arrow-symbol-mktg" width="16" height="16" viewBox="0 0 16 16" fill="none"><path fill="currentColor" d="M7.28033 3.21967C6.98744 2.92678 6.51256 2.92678 6.21967 3.21967C5.92678 3.51256 5.92678 3.98744 6.21967 4.28033L7.28033 3.21967ZM11 8L11.5303 8.53033C11.8232 8.23744 11.8232 7.76256 11.5303 7.46967L11 8ZM6.21967 11.7197C5.92678 12.0126 5.92678 12.4874 6.21967 12.7803C6.51256 13.0732 6.98744 13.0732 7.28033 12.7803L6.21967 11.7197ZM6.21967 4.28033L10.4697 8.53033L11.5303 7.46967L7.28033 3.21967L6.21967 4.28033ZM10.4697 7.46967L6.21967 11.7197L7.28033 12.7803L11.5303 8.53033L10.4697 7.46967Z"></path><path class="octicon-chevrow-stem" stroke="currentColor" d="M1.75 8H11" stroke-width="1.5" stroke-linecap="round"></path></svg>
+
+</a>
+
+    </div>
+  </div>
+
+  <div class="col-12 py-3">
+    <div class="position-relative">
+      
+
+    <div class="d-flex flex-column flex-md-row gutter js-build-in-trigger flex-items-center flex-justify-center" >
+  
+      <div class="col-12 mb-5 mb-md-0">
+        <div class="position-relative d-md-flex flex-items-center flex-justify-center text-left color-bg-overlay box-shadow-card-dark-mktg rounded-2 p-4 p-md-5">
+
+  <div class="col-12">
+    <blockquote class="mb-4 f1-mktg text-medium">
+      <img src="https://github.githubassets.com/images/modules/site/codespaces/quote-gradient.svg" alt="" class="d-block my-3">
+      <span class="color-fg-default">Unreal—Codespaces had me running a server in minutes, and that never happens as a new hire. What an awesome first week!</span>
+    </blockquote>
+
+      <div class="d-flex flex-items-center">
+        <img src="https://github.githubassets.com/images/modules/site/codespaces/chris.jpg" width="40" height="40" alt="" class="circle width-fit mr-2" loading="lazy" decoding="async">
+
+    <cite class="d-block color-fg-muted text-mono" style="font-style: normal">
+      <span class="color-fg-default f3-mktg">Chris Westra</span>
+      
+      <span class="d-block">Senior Software Engineer</span>
+    </cite>
+
+      </div>
+
+  </div>
+</div>
+
+      </div>
+
+      <div class="col-12 mb-5 mb-md-0">
+        <div class="position-relative d-md-flex flex-items-center flex-justify-center text-left color-bg-overlay box-shadow-card-dark-mktg rounded-2 p-4 p-md-5">
+
+  <div class="col-12">
+    <blockquote class="mb-4 f1-mktg text-medium">
+      <img src="https://github.githubassets.com/images/modules/site/codespaces/quote-gradient.svg" alt="" class="d-block my-3">
+      <span class="color-fg-default">Day 2 of Codespaces: Shipped a pull request and started working on another one without waiting for script/bootstrap.</span>
+    </blockquote>
+
+      <div class="d-flex flex-items-center">
+        <img src="https://github.githubassets.com/images/modules/site/codespaces/yumin.jpg" width="40" height="40" alt="" class="circle width-fit mr-2" loading="lazy" decoding="async">
+
+    <cite class="d-block color-fg-muted text-mono" style="font-style: normal">
+      <span class="color-fg-default f3-mktg">Yumin Wong</span>
+      
+      <span class="d-block">Staff Software Engineer</span>
+    </cite>
+
+      </div>
+
+  </div>
+</div>
+
+      </div>
+
+</div>
+
+    </div>
+  </div>
+</div>
+
+  <div class="river-mktg js-build-in-trigger d-flex flex-column gutter gutter-spacious flex-md-items-center my-3 my-sm-7 my-md-8 position-relative flex-md-column text-center pb-4 pb-md-7" data-build-in-stagger=100 >
+  <div class="col-12 py-3">
+    <div class="">
+      
+      
+      
+      
+      <h3 class="color-fg-default h3-mktg mb-3 col-lg-7 mx-lg-auto px-3">Pay as you go</h3>
+      
+      
+      
+    </div>
+  </div>
+
+  <div class="col-12 py-3">
+    <div class="position-relative">
+      
+    <div class="d-flex flex-column flex-column-reverse flex-md-row flex-md-row-reverse flex-justify-between border box-shadow-card-border-mktg color-bg-subtle rounded-2 overflow-hidden text-left" id="pricing">
+      <div class="flex-1">
+        <div class="mb-2 py-4 px-4 px-md-6">
+          <div class="mb-4">
+            <h3 class="f3 text-medium color-fg-default">
+              Codespaces Compute
+            </h3>
+            <span class="color-fg-muted">Isolated VMs billed per second</span>
+          </div>
+
+          <table class="width-full lh-condensed text-medium">
+            <thead>
+              <tr class="border-bottom">
+                <th class="col-4 py-3 mb-3 f5 color-fg-muted text-medium">Cores</th>
+                <th class="col-4 py-3 mb-3 f5 color-fg-muted text-medium">RAM</th>
+                <th class="col-4 py-3 mb-3 f5 color-fg-muted text-medium">Price</th>
+              </tr>
+            </thead>
+            <tr class="border-bottom mb-3 v-align-top">
+              <td class="py-3 color-fg-default">2 core</td>
+              <td class="py-3 color-fg-default">4GB</td>
+              <td class="py-3 color-fg-default">$.18 <span class="d-block f6 text-normal color-fg-muted">per hour</span></td>
+            </tr>
+            <tr class="border-bottom mb-3 v-align-top">
+              <td class="py-3 color-fg-default">4 core</td>
+              <td class="py-3 color-fg-default">8GB</td>
+              <td class="py-3 color-fg-default">$.36 <span class="d-block f6 text-normal color-fg-muted">per hour</span></td>
+            </tr>
+            <tr class="border-bottom mb-3 v-align-top">
+              <td class="py-3 color-fg-default">8 core</td>
+              <td class="py-3 color-fg-default">16GB</td>
+              <td class="py-3 color-fg-default">$.72 <span class="d-block f6 text-normal color-fg-muted">per hour</span></td>
+            </tr>
+            <tr class="border-bottom mb-3 v-align-top">
+              <td class="py-3 color-fg-default">16 core</td>
+              <td class="py-3 color-fg-default">32GB</td>
+              <td class="py-3 color-fg-default">$1.44 <span class="d-block f6 text-normal color-fg-muted">per hour</span></td>
+            </tr>
+            <tr class="v-align-top">
+              <td class="pt-3">32 core</td>
+              <td class="pt-3">64GB</td>
+              <td class="pt-3">$2.88 <span class="d-block f6 text-normal color-fg-muted">per hour</span></td>
+            </tr>
+          </table>
+        </div>
+        <div class="border-top px-4 px-md-6 py-4 d-flex flex-column flex-sm-row color-bg-overlay">
+          <div class="col-sm-8 mb-3 mb-sm-0">
+            <h3 class="f3 text-medium color-fg-default">Codespaces storage</h3>
+            <span class="color-fg-muted">charged when inactive</span>
+          </div>
+          <div>
+            <span class="f3 text-semibold">$0.07</span>
+            <span class="d-block f6 text-normal color-fg-muted">per gigabyte per month</span>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex flex-column flex-items-center px-6 px-md-0 py-4 py-md-3 col-md-4  color-fg-default text-center" style="background-image: url('https://github.githubassets.com/images/modules/site/codespaces/blurple-pricing.jpg'); background-size: cover">
+        <div class="flex-1 d-flex flex-column flex-justify-center text-center">
+          <img src="https://github.githubassets.com/images/modules/site/codespaces/codespaces-logo.svg" width="72" class="text-center mx-auto mb-3" alt="">
+
+          <span class="h3 lh-condensed mb-3 px-md-4">
+            Available today for GitHub&nbsp;Teams and GitHub Enterprise Cloud customers
+          </span>
+
+          <a class="btn-mktg mx-md-5 mb-3 btn-large-mktg" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Get started&quot;,&quot;action&quot;:&quot;click to Get started&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Get started;&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="eb4fbdefdc2892979fd02bb886e0c57dd1da9e664b5a2a13351e5dfe7713166c" data-analytics-event="{&quot;category&quot;:&quot;Get started&quot;,&quot;action&quot;:&quot;click to Get started&quot;,&quot;label&quot;:&quot;ref_page:/features/codespaces;ref_cta:Get started;&quot;}" href="https://docs.github.com/en/codespaces">
+  Get started
+  
+  <svg xmlns="http://www.w3.org/2000/svg" class="octicon arrow-symbol-mktg" width="16" height="16" viewBox="0 0 16 16" fill="none"><path fill="currentColor" d="M7.28033 3.21967C6.98744 2.92678 6.51256 2.92678 6.21967 3.21967C5.92678 3.51256 5.92678 3.98744 6.21967 4.28033L7.28033 3.21967ZM11 8L11.5303 8.53033C11.8232 8.23744 11.8232 7.76256 11.5303 7.46967L11 8ZM6.21967 11.7197C5.92678 12.0126 5.92678 12.4874 6.21967 12.7803C6.51256 13.0732 6.98744 13.0732 7.28033 12.7803L6.21967 11.7197ZM6.21967 4.28033L10.4697 8.53033L11.5303 7.46967L7.28033 3.21967L6.21967 4.28033ZM10.4697 7.46967L6.21967 11.7197L7.28033 12.7803L11.5303 8.53033L10.4697 7.46967Z"></path><path class="octicon-chevrow-stem" stroke="currentColor" d="M1.75 8H11" stroke-width="1.5" stroke-linecap="round"></path></svg>
+
+</a>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </div>
+</div>
+
+  <div class="px-4 px-md-6 px-lg-0 mb-8 mt-md-8 mt-lg-12 position-relative z-1 codespaces-faq">
+  <div class="col-lg-8 mx-auto faq-mktg" id="faq">
+    <h2 class="h3-mktg mx-auto col-10-max mb-8 text-center color-fg-default">Frequently<br>asked questions</h2>
+
+      <div class="position-relative faq-mktg-item">
+  <details class="position-relative border-bottom">
+    <summary class="position-relative list-style-none pl-4 py-4">
+      <h3 class="d-inline-block v-align-top mt-n1 col-11 ml-1 ml-lg-6 mb-0 f3-mktg text-semibold color-fg-default">
+        How do I get access to Codespaces?
+      </h3>
+    </summary>
+    <div class="ml-4 ml-lg-6 pl-1 pl-lg-4 mt-n3 mb-5 color-fg-muted f4-mktg position-relative z-1">
+      
+            <p>Codespaces is rolling out progressively on August 11th, 2021 and <a href="https://github.co/enable-codespaces">can be enabled in settings</a> by organization owners for Team and Enterprise Cloud plans. For users in individual plans, we’re extending the existing Codespaces beta. For those in the beta, access will remain and we’ll share updates on what’s coming in the near future.</p>
+
+    </div>
+  </details>
+  <div class="faq-mktg-item-hover-effect position-absolute bottom-0 left-0 width-full z-n1 border-bottom"></div>
+</div>
+
+      <div class="position-relative faq-mktg-item">
+  <details class="position-relative border-bottom">
+    <summary class="position-relative list-style-none pl-4 py-4">
+      <h3 class="d-inline-block v-align-top mt-n1 col-11 ml-1 ml-lg-6 mb-0 f3-mktg text-semibold color-fg-default">
+        Does GitHub use Codespaces?
+      </h3>
+    </summary>
+    <div class="ml-4 ml-lg-6 pl-1 pl-lg-4 mt-n3 mb-5 color-fg-muted f4-mktg position-relative z-1">
+      
+            <p>GitHub uses Codespaces to build github.com. <a href=" https://github.co/codespaces-ga-blog">An explainer of how GitHub uses Codespaces</a> is available on our blog.</p>
+
+    </div>
+  </details>
+  <div class="faq-mktg-item-hover-effect position-absolute bottom-0 left-0 width-full z-n1 border-bottom"></div>
+</div>
+
+      <div class="position-relative faq-mktg-item">
+  <details class="position-relative border-bottom">
+    <summary class="position-relative list-style-none pl-4 py-4">
+      <h3 class="d-inline-block v-align-top mt-n1 col-11 ml-1 ml-lg-6 mb-0 f3-mktg text-semibold color-fg-default">
+        How much does Codespaces cost for organizations?
+      </h3>
+    </summary>
+    <div class="ml-4 ml-lg-6 pl-1 pl-lg-4 mt-n3 mb-5 color-fg-muted f4-mktg position-relative z-1">
+      
+            <p>Full details on pricing are <a href="https://github.co/codespaces-billing">available in our documentation</a>. Billing begins for Codespaces after September 10th, 2021 PST. Prior to this date, organizations with Team or Enterprise Cloud accounts can trial Codespaces without charges. Codespaces is in beta preview for U.S. government customers; please contact your sales rep for more information.</p>
+
+    </div>
+  </details>
+  <div class="faq-mktg-item-hover-effect position-absolute bottom-0 left-0 width-full z-n1 border-bottom"></div>
+</div>
+
+      <div class="position-relative faq-mktg-item">
+  <details class="position-relative border-bottom">
+    <summary class="position-relative list-style-none pl-4 py-4">
+      <h3 class="d-inline-block v-align-top mt-n1 col-11 ml-1 ml-lg-6 mb-0 f3-mktg text-semibold color-fg-default">
+        What is github.dev?
+      </h3>
+    </summary>
+    <div class="ml-4 ml-lg-6 pl-1 pl-lg-4 mt-n3 mb-5 color-fg-muted f4-mktg position-relative z-1">
+      
+            <p>Press <kbd class="js-modifier-key">.</kbd> on any repo to make quick edits powered by Visual Studio Code.</p>
+
+    </div>
+  </details>
+  <div class="faq-mktg-item-hover-effect position-absolute bottom-0 left-0 width-full z-n1 border-bottom"></div>
+</div>
+
+      <div class="position-relative faq-mktg-item">
+  <details class="position-relative border-bottom">
+    <summary class="position-relative list-style-none pl-4 py-4">
+      <h3 class="d-inline-block v-align-top mt-n1 col-11 ml-1 ml-lg-6 mb-0 f3-mktg text-semibold color-fg-default">
+        When can I use Codespaces on my personal repos?
+      </h3>
+    </summary>
+    <div class="ml-4 ml-lg-6 pl-1 pl-lg-4 mt-n3 mb-5 color-fg-muted f4-mktg position-relative z-1">
+      <p>We’ll share more information about how individuals will be able to use Codespaces in the future. Individuals in the existing beta will continue to have access to Codespaces and will not be charged.</p>
+      
+    </div>
+  </details>
+  <div class="faq-mktg-item-hover-effect position-absolute bottom-0 left-0 width-full z-n1 border-bottom"></div>
+</div>
+
+      <div class="position-relative faq-mktg-item">
+  <details class="position-relative border-bottom">
+    <summary class="position-relative list-style-none pl-4 py-4">
+      <h3 class="d-inline-block v-align-top mt-n1 col-11 ml-1 ml-lg-6 mb-0 f3-mktg text-semibold color-fg-default">
+        Can I run a Codespace locally?
+      </h3>
+    </summary>
+    <div class="ml-4 ml-lg-6 pl-1 pl-lg-4 mt-n3 mb-5 color-fg-muted f4-mktg position-relative z-1">
+      
+            <p>While Codespaces run in global data centers to reduce latency, you can run a cloud instance of any repository configured with a <a href="https://docs.github.com/en/codespaces/customizing-your-codespace/configuring-codespaces-for-your-project">devcontainer</a> locally using <a href="https://code.visualstudio.com/docs/remote/containers">VS Code Remote Containers</a>.</p>
+
+    </div>
+  </details>
+  <div class="faq-mktg-item-hover-effect position-absolute bottom-0 left-0 width-full z-n1 border-bottom"></div>
+</div>
+
+  </div>
+</div>
+
+  </div>
+</div></main>
+
+  </div>
+
+            <footer class="footer pt-6 position-relative" data-color-mode="dark" data-dark-theme="dark">
+  <div class="container-xl p-responsive">
+    <div class="d-flex flex-wrap py-5 mb-5">
+      <div class="col-12 col-lg-4 mb-5">
+        <a href="/" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to home&quot;,&quot;label&quot;:&quot;text:home&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="67051f217ab9ccaf01ee955ad4f0960387c17dd922a0c923e91dfa95afad07fa" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to home&quot;,&quot;label&quot;:&quot;text:home&quot;}" class="color-fg-default" aria-label="Go to GitHub homepage">
+          <img class="footer-logo-mktg" src="https://github.githubassets.com/images/modules/site/icons/footer/github-logo.svg" width="84" height="30" loading="lazy" decoding="async" alt="GitHub">
+        </a>
+
+
+      </div>
+
+      <div class="col-6 col-sm-3 col-lg-2 mb-6 mb-md-2 pr-3 pr-lg-0 pl-lg-4">
+        <h2 class="h5 mb-3 text-mono color-fg-muted text-normal">
+          Product
+        </h2>
+
+        <ul class="list-style-none color-fg-muted f5">
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to features&quot;,&quot;label&quot;:&quot;text:features&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="c08c714586ae740e107ed2a9900bd06955fcbf9f5b562f35e6f369a8d23d290f" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to features&quot;,&quot;label&quot;:&quot;text:features&quot;}" href="/features">Features</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to security&quot;,&quot;label&quot;:&quot;text:security&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="32591417b048262f597e9c53b91cf0d84f7da4dacf8e4124b7b2f2676d7fa884" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to security&quot;,&quot;label&quot;:&quot;text:security&quot;}" href="/security">Security</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to team&quot;,&quot;label&quot;:&quot;text:team&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="5bbbaec2784a0802fdc1bcaa33201fdd20b2057ef5ff223618b1d02293ea7a4c" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to team&quot;,&quot;label&quot;:&quot;text:team&quot;}" href="/team">Team</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to enterprise&quot;,&quot;label&quot;:&quot;text:enterprise&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ce6c46f982849a51e4e5bd25b3ff7db05d9851fefc402e656097518b1280d016" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to enterprise&quot;,&quot;label&quot;:&quot;text:enterprise&quot;}" href="/enterprise">Enterprise</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to customer stories&quot;,&quot;label&quot;:&quot;text:customer stories&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="c36af8378446fad9dbae9e41efe3ba4399120fa19fcb80d265e259ce8a1163b3" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to customer stories&quot;,&quot;label&quot;:&quot;text:customer stories&quot;}" href="/customer-stories?type=enterprise">Customer stories</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to the readme project&quot;,&quot;label&quot;:&quot;text:the readme project&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2aec50b5b0f1f0bbbde028721e8607a66798a850a6b1b17ea3e88299b617a974" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to the readme project&quot;,&quot;label&quot;:&quot;text:the readme project&quot;}" href="/readme">The ReadME Project</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to pricing&quot;,&quot;label&quot;:&quot;text:pricing&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="c2b4d7a7c3e197636ae371a9c7f06dd584ad1406f2010987dfd3a9411db5b69a" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to pricing&quot;,&quot;label&quot;:&quot;text:pricing&quot;}" href="/pricing">Pricing</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to resources&quot;,&quot;label&quot;:&quot;text:resources&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="62989464e340a4ff57aea1aeff01349ad2978a66320df53142a5df5d11be957b" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to resources&quot;,&quot;label&quot;:&quot;text:resources&quot;}" href="https://resources.github.com">Resources</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to roadmap&quot;,&quot;label&quot;:&quot;text:roadmap&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="b92bd50d1b512cb4353a7d1702c347f7c908565a156c2b5a828b0c4ad8925e0f" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to roadmap&quot;,&quot;label&quot;:&quot;text:roadmap&quot;}" href="https://github.com/github/roadmap">Roadmap</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-sm-3 col-lg-2 mb-6 mb-md-2 pr-3 pr-md-0 pl-md-4">
+        <h2 class="h5 mb-3 text-mono color-fg-muted text-normal">
+          Platform
+        </h2>
+
+        <ul class="list-style-none f5">
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to api&quot;,&quot;label&quot;:&quot;text:api&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="6ac25298f3f2dc768add4167a5c4b8cd50426e280c120467a459cfb9ec8492dc" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to api&quot;,&quot;label&quot;:&quot;text:api&quot;}" href="https://docs.github.com">Developer API</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to partner&quot;,&quot;label&quot;:&quot;text:partner&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="686f37602f5bb47f5bb008181a951818a4474bc8113647518464629e68513ac8" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to partner&quot;,&quot;label&quot;:&quot;text:partner&quot;}" href="https://partner.github.com">Partners</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to atom&quot;,&quot;label&quot;:&quot;text:atom&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="cef37365e9840f3eb0d8c726ab415c9cd2cb248a5eac9494ddd9e7546e78efaf" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to atom&quot;,&quot;label&quot;:&quot;text:atom&quot;}" href="https://atom.io">Atom</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to electron&quot;,&quot;label&quot;:&quot;text:electron&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="5870fe1a64bd6a8fa22ed20515257d6963d8af640166710acadf59dbadda883b" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to electron&quot;,&quot;label&quot;:&quot;text:electron&quot;}" href="https://www.electronjs.org">Electron</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to desktop&quot;,&quot;label&quot;:&quot;text:desktop&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="46c7ef93fae12433f42b84e1b013d6117ce9d089dd78c12301e3415b9adf418c" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to desktop&quot;,&quot;label&quot;:&quot;text:desktop&quot;}" href="https://desktop.github.com/">GitHub Desktop</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-sm-3 col-lg-2 mb-6 mb-md-2 pr-3 pr-md-0 pl-md-4">
+        <h2 class="h5 mb-3 text-mono color-fg-muted text-normal">
+          Support
+        </h2>
+
+        <ul class="list-style-none f5">
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to help&quot;,&quot;label&quot;:&quot;text:Docs&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="e3d41689c76db8229799f677abaa62c001f7311c64ea302418cd8582f97b9093" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to help&quot;,&quot;label&quot;:&quot;text:Docs&quot;}" href="https://docs.github.com">Docs</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to community&quot;,&quot;label&quot;:&quot;text:community&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="cdc4b1d4e73ae836528e442c073f431e2962e70d0c486b441e040008ad110551" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to community&quot;,&quot;label&quot;:&quot;text:community&quot;}" href="https://github.community">Community Forum</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to professional services&quot;,&quot;label&quot;:&quot;text:professional services&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="7b4ff83e3ba67f1417ce5815b38f6b9211297b530acb817463fc793b16ec5626" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to professional services&quot;,&quot;label&quot;:&quot;text:professional services&quot;}" href="https://services.github.com/">Professional Services</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to learning lab&quot;,&quot;label&quot;:&quot;text:learning lab&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="bb04ece1c237d2a7d13fd63ea02f2fdb2c7f11c358ff9673c9de2c76ec9fb2a9" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to learning lab&quot;,&quot;label&quot;:&quot;text:learning lab&quot;}" href="https://lab.github.com/">Learning Lab</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to status&quot;,&quot;label&quot;:&quot;text:status&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="44835cabcac4f6b4e429a59715210fa4c9c4a38ddee01efa4fa24b596dd0d5ed" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to status&quot;,&quot;label&quot;:&quot;text:status&quot;}" href="https://www.githubstatus.com/">Status</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to contact&quot;,&quot;label&quot;:&quot;text:contact&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="f933575dc93b877743eeb83f5c4d4af2cc950830da89e4d6ad1450dceafa05b4" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to contact&quot;,&quot;label&quot;:&quot;text:contact&quot;}" href="https://support.github.com?tags=dotcom-footer">Contact GitHub</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-sm-3 col-lg-2 mb-6 mb-md-2 pr-3 pr-md-0 pl-md-4">
+        <h2 class="h5 mb-3 text-mono color-fg-muted text-normal">
+          Company
+        </h2>
+
+        <ul class="list-style-none f5">
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to about&quot;,&quot;label&quot;:&quot;text:about&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ccd95a227a5a8bd04534565459485a227a8733aefec1f66e94a01d4f8cf45ade" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to about&quot;,&quot;label&quot;:&quot;text:about&quot;}" href="https://github.com/about">About</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to blog&quot;,&quot;label&quot;:&quot;text:blog&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="f981cbc04374b2cfe27c6f89260404d0aadfc5a3a28981a99345e0a1ef7de8a1" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to blog&quot;,&quot;label&quot;:&quot;text:blog&quot;}" href="https://github.blog">Blog</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to careers&quot;,&quot;label&quot;:&quot;text:careers&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="bc1f8d8b4750497a0da5ae3a7233513a013a9000c526e453ca4fb3cbce7bf524" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to careers&quot;,&quot;label&quot;:&quot;text:careers&quot;}" href="/about/careers">Careers</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to press&quot;,&quot;label&quot;:&quot;text:press&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="3262f6808fb3b3cfec4de8dd7404925ba6ddd51dae429789286c153fe0e1697a" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to press&quot;,&quot;label&quot;:&quot;text:press&quot;}" href="/about/press">Press</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to diversity&quot;,&quot;label&quot;:&quot;text:Inclusion&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="80c02aff62ae917da18f6a1e19c0a0cfcabfdd79d22a01932bfe79e35b27c218" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to diversity&quot;,&quot;label&quot;:&quot;text:Inclusion&quot;}" href="/about/diversity">Inclusion</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to social impact&quot;,&quot;label&quot;:&quot;text:social impact&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="8e75cd84ae038469bfc66f7a02523e2cc1b894989b9e1a84ca68827c64ba67f4" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to social impact&quot;,&quot;label&quot;:&quot;text:social impact&quot;}" href="https://socialimpact.github.com/">Social Impact</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to shop&quot;,&quot;label&quot;:&quot;text:shop&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="8532fe0429be92d899dc12a3b18fd1e6c58e7bd8c0538cc6728c4094f7a85d97" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to shop&quot;,&quot;label&quot;:&quot;text:shop&quot;}" href="https://shop.github.com">Shop</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="color-bg-subtle">
+    <div class="container-xl p-responsive f6 py-4 d-sm-flex flex-justify-between flex-row-reverse flex-items-center">
+      <ul class="list-style-none d-flex flex-items-center mb-3 mb-sm-0 lh-condensed-ultra">
+        <li class="mr-3">
+          <a href="https://twitter.com/github" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Twitter&quot;,&quot;label&quot;:&quot;text:twitter&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="275c2318a3a20dbd1f80f0221c5d3a5774674c5329e7ac0fed141286fa09659c" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Twitter&quot;,&quot;label&quot;:&quot;text:twitter&quot;}" class="color-fg-subtle">
+            <img src="https://github.githubassets.com/images/modules/site/icons/footer/twitter.svg" height="18" width="22"  class="d-block" loading="lazy" decoding="async" alt="Twitter icon">
+            <span class="sr-only">GitHub on Twitter</span>
+          </a>
+        </li>
+        <li class="mr-3">
+          <a href="https://www.facebook.com/GitHub" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Facebook&quot;,&quot;label&quot;:&quot;text:facebook&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="aecb605f7f1e39707d7b58bff44b43ae6248caa12e4541f5edfd91aa44a26fcb" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Facebook&quot;,&quot;label&quot;:&quot;text:facebook&quot;}" class="color-fg-subtle">
+            <img src="https://github.githubassets.com/images/modules/site/icons/footer/facebook.svg" width="18" height="18"  class="d-block" loading="lazy" decoding="async" alt="Facebook icon">
+            <span class="sr-only">GitHub on Facebook</span>
+          </a>
+        </li>
+        <li class="mr-3">
+          <a href="https://www.youtube.com/github" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to YouTube&quot;,&quot;label&quot;:&quot;text:youtube&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="a87002174d935893a68ca2870bc3fc7dfee678321dd4a260b01d6f3d18ab388e" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to YouTube&quot;,&quot;label&quot;:&quot;text:youtube&quot;}" class="color-fg-subtle">
+            <img src="https://github.githubassets.com/images/modules/site/icons/footer/youtube.svg" width="23" height="16"  class="d-block" loading="lazy" decoding="async" alt="YouTube icon">
+            <span class="sr-only">GitHub on YouTube</span>
+          </a>
+        </li>
+        <li class="mr-3 flex-self-start">
+          <a href="https://www.linkedin.com/company/github" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Linkedin&quot;,&quot;label&quot;:&quot;text:linkedin&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="6ae3acce5d6cc5982cb58f90f17ae49f0d86748ec172cec1c8821dda1da8b9fb" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Linkedin&quot;,&quot;label&quot;:&quot;text:linkedin&quot;}" class="color-fg-subtle">
+            <img src="https://github.githubassets.com/images/modules/site/icons/footer/linkedin.svg" width="19" height="18" class="d-block" loading="lazy" decoding="async" alt="Linkedin icon">
+            <span class="sr-only">GitHub on LinkedIn</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/github" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to github&#39;s org&quot;,&quot;label&quot;:&quot;text:github&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="b59dff18104eb0832a8e85e169dde270b14e0921805b2fe2ae511a0524557c4a" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to github&#39;s org&quot;,&quot;label&quot;:&quot;text:github&quot;}" class="color-fg-subtle">
+            <img src="https://github.githubassets.com/images/modules/site/icons/footer/github-mark.svg" width="20" height="20" class="d-block" loading="lazy" decoding="async" alt="GitHub mark">
+            <span class="sr-only">GitHub’s organization on GitHub</span>
+          </a>
+        </li>
+      </ul>
+
+      <ul class="list-style-none d-flex flex-wrap color-fg-muted">
+        <li class="mr-3">
+          &copy; 2022 GitHub, Inc.
+        </li>
+
+        <li class="mr-3">
+          <a href="https://docs.github.com/en/github/site-policy/github-terms-of-service" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to terms&quot;,&quot;label&quot;:&quot;text:terms&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="d40f256932dda634aa7ac6065073681beca526c867863719026a80a88cc9fad5" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to terms&quot;,&quot;label&quot;:&quot;text:terms&quot;}" class="Link--secondary">Terms</a>
+        </li>
+
+        <li class="mr-3">
+          <a href="https://docs.github.com/en/github/site-policy/github-privacy-statement" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to privacy&quot;,&quot;label&quot;:&quot;text:privacy&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="76a4c56ac5b9b60342ad8f73e9fa970c4b43a8777c964e29963a820c5ab61fa1" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to privacy&quot;,&quot;label&quot;:&quot;text:privacy&quot;}" class="Link--secondary">Privacy</a>
+        </li>
+
+        <li class="mr-3">
+          <a class="Link--secondary" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to site map&quot;,&quot;label&quot;:&quot;text:site map&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="f120b91658fb5279f484f7b5eb86169152f074d68012186c4d453a9572edc0f6" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to site map&quot;,&quot;label&quot;:&quot;text:site map&quot;}" href="/site-map">Site Map</a>
+        </li>
+
+        <li>
+          <a class="Link--secondary" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Git Guides&quot;,&quot;label&quot;:&quot;text:What is Git?&quot;,&quot;originating_url&quot;:&quot;https://github.com/features/codespaces&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="a11cc8d312fd99d9c3d61a6445fb48b0d44eca0a8ab1c273a204c3ec844ed746" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Git Guides&quot;,&quot;label&quot;:&quot;text:What is Git?&quot;}" href="/git-guides">What is Git?</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error" hidden>
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path>
+</svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
+</svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+  <div class="js-stale-session-flash flash flash-warn flash-banner" hidden
+    >
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path>
+</svg>
+    <span class="js-stale-session-flash-signed-in" hidden>You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="js-stale-session-flash-signed-out" hidden>You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+    <template id="site-details-dialog">
+  <details class="details-reset details-overlay details-overlay-dark lh-default color-fg-default hx_rsm" open>
+    <summary role="button" aria-label="Close dialog"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast hx_rsm-dialog hx_rsm-modal" aria-labelledby="box-title">
+      <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
+</svg>
+      </button>
+      <div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
+    </details-dialog>
+  </details>
+</template>
+
+    <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box color-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+    <template id="snippet-clipboard-copy-button">
+  <div class="zeroclipboard-container position-absolute right-0 top-0">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn js-clipboard-copy m-2 p-0 tooltipped-no-delay" data-copy-feedback="Copied!" data-tooltip-direction="w">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon m-2">
+    <path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none m-2">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+    </clipboard-copy>
+  </div>
+</template>
+
+
+
+
+  </body>
+</html>
+

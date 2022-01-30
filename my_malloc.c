@@ -1,28 +1,37 @@
 #include "my_malloc.h"
 
+void* lock_sbrk(size_t size){
+    assert(pthread_mutex_lock(&lock) == 0);
+    void *ret = sbrk(size);
+    assert(pthread_mutex_unlock(&lock) == 0);
+    return ret;
+}
 
-meta_t *head = NULL;
-meta_t *tail = NULL;
-
-void init(){
-    head = (meta_t*)sbrk(sizeof(meta_t));
-    tail = (meta_t*)sbrk(sizeof(meta_t));
-    head->size = -1;
-    head->next = tail;
-    head->pre = NULL;
-    tail->size = -1;
-    tail->pre = head;
-    tail->next = NULL;
+void init(meta_t **head, meta_t **tail){
+    if(!LOCK_V){
+        *head = (meta_t*)sbrk(sizeof(meta_t));
+        *tail = (meta_t*)sbrk(sizeof(meta_t));
+    }
+    else{
+        *head = (meta_t*)lock_sbrk(sizeof(meta_t));
+        *tail = (meta_t*)lock_sbrk(sizeof(meta_t));
+    }
+    (*head)->size = -1;
+    (*head)->next = *tail;
+    (*head)->pre = NULL;
+    (*tail)->size = -1;
+    (*tail)->pre = *head;
+    (*tail)->next = NULL;
     return;
 }
 
-bool checkmerge(meta_t *cur){
-    meta_t *tmp = head;
+bool checkmerge(meta_t *cur, meta_t **head, meta_t **tail){
+    meta_t *tmp = (*head)->next;
     meta_t *follow = NULL;
     meta_t *ahead = NULL;
     int state = 0;
     void *cur_next = (void*)cur + cur->size + sizeof(meta_t);
-    while(tmp != tail){
+    while(tmp != *tail){
         if(cur_next == (void*)tmp && follow == NULL) {
             state++;
             follow = tmp;
@@ -44,8 +53,8 @@ bool checkmerge(meta_t *cur){
             cur->size = follow->size + cur->size + sizeof(meta_t);
             cur->pre = follow->pre;
             cur->next = follow->next;
-            follow->pre->next = cur;
-            follow->next->pre = cur;
+            cur->pre->next = cur;
+            cur->next->pre = cur;
         }
         if(ahead != NULL){
             ahead->size = ahead->size + cur->size + sizeof(meta_t);
@@ -63,17 +72,16 @@ bool checkmerge(meta_t *cur){
     }
 }
 
-
 //Best Fit malloc/free
-void *bf_malloc(size_t size){
-        void *ret;
-    if(head == NULL)
-        init(); 
+void* bf_malloc(size_t size, meta_t **head, meta_t **tail){
+    void *ret;
+    if(*head == NULL)
+        init(head, tail); 
     else{
-        meta_t *tmp = head->next;
+        meta_t *tmp = (*head)->next;
         meta_t *best = NULL;
         size_t min = size;
-        while (tmp != tail)
+        while (tmp != *tail)
         {
             if(tmp->size >= size && tmp->size <= size + sizeof(meta_t)){
                 ret = (void*)tmp + sizeof(meta_t);
@@ -83,7 +91,6 @@ void *bf_malloc(size_t size){
                 tmp->pre = NULL;            
                 return ret;
             }
-            
             if(tmp->size > size + sizeof(meta_t)){
                 size_t d = tmp->size - size - sizeof(meta_t);
                 if(d < min){
@@ -94,22 +101,25 @@ void *bf_malloc(size_t size){
             tmp = tmp->next;
         }
 
-            if(best != NULL){
-                ret = (void*)best + sizeof(meta_t);
-                meta_t *new = (meta_t*)((void*)tmp + size + sizeof(meta_t));
-                new->size = tmp->size - size;
-                new->next = tmp->next;
-                new->pre = tmp->pre;
-                new->pre->next = new;
-                best->size = size;
-                best->next = NULL;
-                best->pre = NULL;
-                return ret;
-            }
-            
-        } 
+        if(best != NULL){
+            ret = (void*)best + sizeof(meta_t);
+            meta_t *new = (meta_t*)((void*)tmp + size + sizeof(meta_t));
+            new->size = tmp->size - size;
+            new->next = tmp->next;
+            new->pre = tmp->pre;
+            new->pre->next = new;
+            best->size = size;
+            best->next = NULL;
+            best->pre = NULL;
+            return ret;
+        }
+    } 
 
-    meta_t *cur = (meta_t*)sbrk(size+sizeof(meta_t));
+    meta_t *cur = NULL;
+    if(!LOCK_V)
+        cur = (meta_t*)sbrk(size+sizeof(meta_t));
+    else
+        cur = (meta_t*)lock_sbrk(size+sizeof(meta_t));
     cur->size = size;
     cur->next = NULL;
     cur->pre = NULL;
@@ -117,16 +127,41 @@ void *bf_malloc(size_t size){
     return ret;
 }
 
-void bf_free(void *ptr){
-    assert(head != NULL);
+void bf_free(void *ptr, meta_t **head, meta_t **tail){
+    assert(*head != NULL);
     meta_t *cur = (meta_t*)(ptr - sizeof(meta_t));
-    if(checkmerge(cur)) return;
-    cur->next = tail;
-    cur->pre = tail->pre;
-    tail->pre = cur;
+    if(checkmerge(cur,head,tail)) return;
+    cur->next = *tail;
+    cur->pre = (*tail)->pre;
+    (*tail)->pre = cur;
     return;
 }
 
-//performance study
-unsigned long get_data_segment_size(); //in bytes
-unsigned long get_data_segment_free_space_size(); //in bytes
+//Thread Safe malloc/free: locking version
+void *ts_malloc_lock(size_t size){
+    void *ret;
+    LOCK_V = 0;
+    assert(pthread_mutex_lock(&lock) == 0);
+    ret = bf_malloc(size, &_head, &_tail);
+    assert(pthread_mutex_unlock(&lock) == 0);
+    return ret;
+}
+void ts_free_lock(void *ptr){
+    LOCK_V = 0;
+    assert(pthread_mutex_lock(&lock) == 0);
+    bf_free(ptr, &_head, &_tail);
+    assert(pthread_mutex_unlock(&lock) == 0);
+    return;
+};
+
+//Thread Safe malloc/free: non-locking version
+void *ts_malloc_nolock(size_t size){
+    LOCK_V = 1; 
+    return bf_malloc(size, &head_tls, &tail_tls);
+};
+void ts_free_nolock(void *ptr){
+    LOCK_V = 1;
+    if(head_tls == NULL) init(&head_tls, &tail_tls);
+    bf_free(ptr, &head_tls, &tail_tls);
+    return;
+};
